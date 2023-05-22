@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+    <g fill="none" fill-rule="evenodd">
+        <g fill-opacity=".3">
+            <path fill="gray" d="M50.902 0L0 19.695 14.795 57.936 14.795 45.313 5.89 22.299 48.298 5.891 52.571 16.933 57.454 16.933z" transform="translate(35 16)"/>
+            <path fill="#999" d="M14.795 57.936h54.58V16.932h-54.58v41.004zm4.555-4.555h45.472V21.487H19.35V53.38z" transform="translate(35 16)"/>
+            <g>
+                <path fill="#CCC" d="M.893 18.87c0 2.485 2.015 4.499 4.499 4.499v-8.998c-2.484 0-4.5 2.015-4.5 4.499" transform="translate(35 16) translate(24 11.936)"/>
+                <path fill="#999" d="M9.89 18.87c0 2.485-2.014 4.499-4.498 4.499v-8.998c2.484 0 4.499 2.015 4.499 4.499" transform="translate(35 16) translate(24 11.936)"/>
+                <path fill="#707070" d="M15.03 30.257L9.49 28.35l-8.598 9.4s14.138-7.491 14.138-7.493M31.822 21.36L26.901 23.968 36.803 37.75z" transform="translate(35 16) translate(24 11.936)"/>
+                <path fill="#8D8D8D" d="M0.893 37.75L10.904 37.75 15.031 30.26z" transform="translate(35 16) translate(24 11.936)"/>
+                <path fill="#707070" d="M26.901 23.969l-4.76-6.625-7.11 12.913 11.87-6.288" transform="translate(35 16) translate(24 11.936)"/>
+                <path fill="#8D8D8D" d="M36.804 37.75L26.902 23.969 15.031 30.259z" transform="translate(35 16) translate(24 11.936)"/>
+                <path fill="#A4A4A4" d="M15.03 30.259l-4.127 7.49h25.9L15.03 30.26z" transform="translate(35 16) translate(24 11.936)"/>
+                <path fill="#B2B2B2" d="M23.83 1.183C23.316.549 22.424.129 21.407.129c-.766 0-1.462.24-1.977.627C18.915.368 18.22.13 17.453.13c-1.017 0-1.909.42-2.42 1.054.541-.19 1.14-.297 1.771-.297.756 0 1.467.154 2.09.422.187.08.367.17.537.271.338.203.64.442.894.713-.024-.356-.152-.69-.357-.984.622-.268 1.333-.422 2.09-.422.63 0 1.23.107 1.771.297" transform="translate(35 16) translate(24 11.936)"/>
+            </g>
+        </g>
+        <text fill="#C8C8CC" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="14" letter-spacing="-.106">
+            <tspan x="14.694" y="100">이미지를 불러오는데</tspan> <tspan x="26.957" y="117">실패하였습니다.</tspan>
+        </text>
+    </g>
+</svg>

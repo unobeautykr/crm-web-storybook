@@ -1,0 +1,36 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+import { styled } from '@storybook/theming';
+import { ColorView } from '~/components/ColorView';
+import { color } from '~/themes/styles';
+
+<Meta title="9. Table" />
+
+# Table Guideline
+
+우노뷰티 CRM Table Guideline은 contents 영역에 사용되는 모든 table에 기본으로 적용되는 디자인 형태를 통일하여 디자인과 개발단의 효율적인 작업을 가능하게 합니다.
+
+**📁 Table Header**  
+height는 **24px**을 기본으로 하며, 내용에 따라 table width는 조정될 수 있습니다.  
+textstyle은 **Title1(Noto Sans KR, 12, bold), grey/700**을 사용합니다.
+
+**📁 Table List**  
+height는 **1줄일 때 32px**을 기본으로 하며, 2줄 이상일 시 margin-top, bottom 4px을 유지하며 변경됩니다.  
+textstyle은 **Title1(Noto Sans KR, 12, Medium), grey/700**을 사용합니다.  
+list background color는 **Bluegrey / 100, white(#FFFFFF)** 컬러를 번갈아가면서 사용합니다.  
+mouse hover 시 **grey / 200**으로 선택 영역이 변경됩니다.
+
+<figure>
+  <figcaption>Table / list / normal</figcaption>
+  <Story id="component-table-default--default" />
+</figure>
+
+**📁 Table / List / Memo**  
+checkbox(삭제) 및 edit icon(수정)은 table list 맨 앞에 위치하며, 테이블 상단에 삭제 button으로 컨트롤이 가능합니다.  
+Popup / modal / normal / pagination의 경우를 제외하고 단일 페이지에서 노출되는 테이블은 pagination 버튼이 테이블 우상단에 위치하도록 합니다.  
+메모가 좌우 스크롤 없이 한 눈에 보여야 할 경우 열에 추가되지 않고 리스트가 2행으로 분리되어 노출됩니다. (ex. Table / list / memo)
+
+<figure>
+  <figcaption>Table / list / memo, multiple</figcaption>
+  <Story id="component-table--memo" />
+</figure>

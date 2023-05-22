@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="25px" viewBox="0 0 23 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F6104403-6710-43C1-8013-1A3113C8BF8A</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.177933 0 0 0 0 0.177933 0 0 0 0 0.177933 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="센트릭스_이관" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CTI_센트릭스_상담_element" transform="translate(-675.000000, -1406.000000)">
+            <g id="btn_cal" transform="translate(671.000000, 1402.000000)" filter="url(#filter-1)">
+                <g transform="translate(4.000000, 4.000000)">
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="14.9" cy="9.5" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="14.9" cy="12.74" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="14.9" cy="15.98" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="18.14" cy="9.5" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="18.14" cy="12.74" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="18.14" cy="15.98" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="11.66" cy="12.74" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="11.66" cy="9.5" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="11.66" cy="15.98" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="11.66" cy="19.22" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="8.42" cy="12.74" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="8.42" cy="15.98" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="8.42" cy="19.22" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="5.18" cy="12.74" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="5.18" cy="15.98" r="1"></circle>
+                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="5.18" cy="19.22" r="1"></circle>
+                    <path d="M23,1.4744 L15.9488,1.4744 L15.9488,0.944 C15.9488,0.6008 15.668,0.32 15.3248,0.32 C14.9816,0.32 14.7008,0.6008 14.7008,0.944 L14.7008,1.4744 L8.3672,1.4744 L8.3672,0.944 C8.3672,0.6008 8.0864,0.32 7.7432,0.32 C7.4,0.32 7.1192,0.6008 7.1192,0.944 L7.1192,1.4744 L0.4136,1.4744 L0.4136,4.8128 L0.4136,5.7488 L0.331076634,21.9233797 C0.32499031,23.1162993 1.28710872,24.0882856 2.48002826,24.0943719 C2.48370165,24.0943906 2.48737508,24.0944 2.49104852,24.0944 L21.92,24.0944 C22.5164675,24.0944 23,23.6108675 23,23.0144 L23,1.4744 L23,1.4744 Z M1.3496,2.4104 L7.1817778,2.4104 L7.1817778,2.9408 C7.1817778,3.284 7.46409671,3.5648 7.80915315,3.5648 C8.1542096,3.5648 8.4365285,3.284 8.4365285,2.9408 L8.4365285,2.4104 L14.8357571,2.4104 L14.8357571,2.9408 C14.8357571,3.284 15.118076,3.5648 15.4631325,3.5648 C15.8081889,3.5648 16.0905078,3.284 16.0905078,2.9408 L16.0905078,2.4104 L21.8696,2.4104 L21.8696,4.8128 L1.3496,4.8128 L1.3496,2.4104 Z M1.3496,21.9290771 L1.3496,5.7488 L1.3496,5.7488 L21.9204484,5.7488 L21.9204484,21.9290771 C21.9204484,22.5255446 21.436916,23.0090771 20.8404484,23.0090771 L2.4296,23.0090771 C1.83313247,23.0090771 1.3496,22.5255446 1.3496,21.9290771 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

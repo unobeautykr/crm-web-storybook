@@ -1,0 +1,150 @@
+{
+    "FILTERS": {
+        "en": "Filters",
+        "kr": "필터"
+    },
+    "FILTER_VISIT": {
+        "en": "Visit",
+        "kr": "최근 방문일"
+    },
+    "FILTER_AGE": {
+        "en": "Age",
+        "kr": "나이"
+    },
+    "FILTER_SEX": {
+        "en": "Sex",
+        "kr": "성별"
+    },
+    "FILTER_DETAILS": {
+        "en": "Details",
+        "kr": "상세 조건"
+    },
+    "ALL": {
+        "en": "All",
+        "kr": "전체"
+    },
+    "LAST_THREE_MONTH": {
+        "en": "Last 3 Month",
+        "kr": "3개월 내"
+    },
+    "THREE_TO_SIX_MONTH": {
+        "en": "3~6 Month",
+        "kr": "3~6개월 내"
+    },
+    "SIX_TO_TWELVE_MONTH": {
+        "en": "6~12 Month",
+        "kr": "6~12개월 내"
+    },
+    "BEFORE_TWELVE_MONTH": {
+        "en": "Before 12 Month",
+        "kr": "12개월 이전"
+    },
+    "TEENAGE": {
+        "en": "Teenage",
+        "kr": "10대"
+    },
+    "TWENTIES": {
+        "en": "Twenties",
+        "kr": "20대"
+    },
+    "THIRTIES": {
+        "en": "Thirties",
+        "kr": "30대"
+    },
+    "FORTIES": {
+        "en": "Forties",
+        "kr": "40대"
+    },
+    "FIFTIES": {
+        "en": "Fifties",
+        "kr": "50대"
+    },
+    "MALE": {
+        "en": "Male",
+        "kr": "남성"
+    },
+    "FEMALE": {
+        "en": "Female",
+        "kr": "여성"
+    },
+    "VISIT_DATE": {
+        "en": "Visit Custom",
+        "kr": "방문기간 직접선택"
+    },
+    "BIRTH_DATE": {
+        "en": "Birth Custom",
+        "kr": "출생년도 직접선택"
+    },
+    "ADD_CONDITION": {
+        "en": "Add Condition",
+        "kr": "조건 추가"
+    },
+    "FILTER_DETAIL_CUSTOMER": {
+        "en": "Cond. Customer",
+        "kr": "고객조건"
+    },
+    "FILTER_DETAIL_APPOINTMENT": {
+        "en": "Cond. Appointment",
+        "kr": "예약조건"
+    },
+    "FILTER_DETAIL_CONSULTING": {
+        "en": "Cond. Consulting",
+        "kr": "상담조건"
+    },
+    "FILTER_DETAIL_TREATMENT": {
+        "en": "Cond. Treatment",
+        "kr": "진료조건"
+    },
+    "INIT_FILTERS": {
+        "en": "Init Filters",
+        "kr": "필터 초기화"
+    },
+    "FILTERS_HELP": {
+        "en": "Invalid, duplicated numbers are not SMS targets.",
+        "kr": "유효하지 않은 번호, 중복으로 된 번호는 전송대상에서 자동으로 제외됩니다."
+    },
+    "FILTER_SELECTED_DEFAULT": {
+        "en": "Set filters",
+        "kr": "검색조건을 설정해주세요"
+    },
+    "SMS_POINT": {
+        "en": "SMS Point",
+        "kr": "문자 충전"
+    },
+    "SMS_TARGETS": {
+        "en": "SMS Targets",
+        "kr": "전송대상 고객 수"
+    },
+    "REQUEST_SMS_POINT": {
+        "en": "Request SMS Point",
+        "kr": "문자 잔여충전금액"
+    },
+    "SMS_PRICING": {
+        "en": "SMS Pricing",
+        "kr": "문자전송단가"
+    },
+    "PRICE_OF_UNIT": {
+        "en" : "Price of unit",
+        "kr" : "건당 단가"
+    },
+    "ORGANIZATIONS": {
+        "en": "Organizations",
+        "kr": "조직 관리"
+    },
+    "ORGANIZATIONS_STAFF": {
+        "en": "Organizations Staff",
+        "kr": "직원 관리"
+    },
+    "CONSULTING_REQUESTS": {
+        "en": "Consulting Requests",
+        "kr": "상담 문의"
+    },
+    "CONSULTING_REQUESTS_COUNSELORS": {
+        "en": "Consulting Requests Counselors",
+        "kr": "담당자 배정"
+    },
+    "CONSULTING_REQUESTS_CONNECTS": {
+        "en": "Consulting Requests Connects",
+        "kr": "연동설정"
+    }
+}

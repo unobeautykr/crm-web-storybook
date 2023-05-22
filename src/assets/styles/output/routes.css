@@ -1,0 +1,654 @@
+.context-menu {
+  position: relative;
+}
+
+.context-menu ul {
+  background: #fff;
+  position: absolute;
+  border-radius: 4px;
+  border: 1px solid #e9e9ed;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.32);
+}
+
+.context-menu ul li {
+  padding: 6px 12px;
+  min-width: 144px;
+}
+
+.context-menu ul li:not(:last-child) {
+  border-bottom: 1px solid #e9e9ed;
+}
+
+.context-menu ul li:hover {
+  color: #fff;
+  background: #adacb0;
+  cursor: pointer;
+}
+
+.context-menu ul li.disabled {
+  color: #adacb0;
+}
+
+.context-menu ul li i {
+  font-size: 14px;
+}
+
+.context-menu ul.menu-status {
+  left: 144px;
+  top: 0;
+}
+
+.point-balance .point-balance-desc {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+}
+
+.point-balance .point-balance-desc button {
+  margin-left: 10px;
+}
+
+.point-deposit-info span {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+}
+
+.payment-info-confirm span {
+  margin-right: 8px;
+}
+
+.point-histories .card {
+  margin-bottom: 24px;
+}
+
+.payment-info-confirm,
+.point-apply-input {
+  border: 1px solid #400e40;
+  padding: 16px;
+}
+
+.price-btn button:not(:last-child) {
+  margin-right: 8px;
+}
+
+.folder-cell {
+  width: 40px;
+  height: 40px;
+  border: solid 1px;
+}
+
+.folder-cell.select {
+  background-color: gray;
+}
+
+.chart-page .card,
+.clinic-info .card {
+  overflow-x: auto;
+}
+
+.chart-page .card:not(:last-child),
+.clinic-info .card:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.appointment-codes > div,
+.consulting-codes > div,
+.customer-codes > div,
+.payment-codes > div,
+.sms-notification-codes > div,
+.treatment-codes > div,
+.user-codes > div {
+  max-width: 400px;
+  padding: 16px;
+  border: 1px solid #400e40;
+}
+
+.appointment-codes > div:not(:last-child),
+.consulting-codes > div:not(:last-child),
+.customer-codes > div:not(:last-child),
+.payment-codes > div:not(:last-child),
+.sms-notification-codes > div:not(:last-child),
+.treatment-codes > div:not(:last-child),
+.user-codes > div:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.alimtalk,
+.authority-group-editor,
+.boilerplate-messages,
+.department-categories,
+.products,
+.sms-auto-notifications,
+.treatment-item-categories {
+  max-width: initial !important;
+}
+
+.sms-send .sms-point {
+  color: #ff3d6b;
+  font-size: 16px;
+}
+
+.sms-send .sms-targets {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.point-refund .title {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.point-apply-finish .sub-title p,
+.refund-finish .sub-title p {
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: 800;
+}
+
+.point-apply-finish .notice p,
+.refund-finish .notice p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.point-apply-finish .notice span,
+.refund-finish .notice span {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.modal-basic .danger-confrim {
+  color: red;
+}
+
+.organizations .organizations-view .organ-section {
+  margin-bottom: 30px;
+}
+
+.organizations .search-bar .title {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.organizations .tree-title {
+  margin-bottom: 25px;
+  background-color: #5c5b76;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 5px;
+}
+
+.organizations .organizations-tree {
+  min-width: 400px;
+  border: solid 1px #e9e9ed;
+  margin-right: 10px;
+}
+
+.organizations .data-area {
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.organizations .organizations-detail {
+  height: 300px;
+}
+
+.organizations .organizations-detail .profile {
+  max-width: 200px;
+  max-height: 200px;
+  border: solid 1px #e9e9ed;
+  margin-right: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.organizations .organizations-detail .profile img {
+  width: 100px;
+  height: 140px;
+}
+
+.organizations .organizations-detail .profile-data {
+  max-height: 200px;
+}
+
+.organizations .organizations-detail .profile-data table {
+  width: 100%;
+  height: 100%;
+  border: solid 1px #e9e9ed;
+}
+
+.organizations .organizations-detail .profile-data th {
+  color: #400e40;
+}
+
+.organizations .user-contents .organizations-input .profile {
+  max-width: 200px;
+}
+
+.organizations .user-contents .organizations-input .profile img {
+  width: 200px;
+  height: 200px;
+}
+
+.organizations .user-contents .modal-authority-settings {
+  overflow: visible;
+}
+
+.sms-notification-codes .caller-numbers {
+  max-width: 50em;
+}
+
+.message-alimtalk {
+  max-width: 42em !important;
+}
+
+.message-alimtalk .item-group .guide-line {
+  height: 2em;
+}
+
+.message-alimtalk .item-group + .item-group {
+  margin-top: 0.85em !important;
+}
+
+.message-alimtalk .row.separator {
+  padding: 0.5em 1em 0.5em 0.5em;
+  margin: 0 0 0.1em;
+}
+
+.message-alimtalk .row.separator .border {
+  height: 1px;
+  border-top-color: rgba(204, 204, 204, 0.514);
+  border-top-width: 0.5px;
+  border-top-style: solid;
+}
+
+.message-alimtalk .category .uno-select__control {
+  height: 2.5em;
+  border: 1px solid #e9e9ed;
+}
+
+.message-alimtalk input.phoneNumber:not([type='radio']) {
+  font-size: 0.85rem;
+  width: 100%;
+  height: 2.5em;
+  border: solid 1px #c7c7c7;
+  padding-left: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #e9e9ed;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.message-alimtalk .uno-select__control.uno-select__control--is-disabled,
+.message-alimtalk
+  input:not([type='radio']):not([type='checkbox']):disabled.item-input {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+.message-alimtalk .uno-select__value-container {
+  padding-left: 0.5em;
+}
+
+.message-alimtalk .uno-select__value-container .uno-select__single-value {
+  color: #212529;
+  font-weight: 400;
+}
+
+.message-alimtalk .help {
+  background-color: #efefef;
+  padding: 1em;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: dotted;
+}
+
+.message-alimtalk .help ul.desc {
+  padding-left: 1em;
+  font-size: 0.95em;
+  padding-top: 0.5em;
+}
+
+.message-alimtalk .help ul.desc li {
+  padding-left: 0.5em;
+  list-style-type: decimal;
+  white-space: pre-wrap;
+}
+
+.message-alimtalk .desc-response {
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 0.5em;
+}
+
+.message-alimtalk .desc-response .success {
+  color: #51cf66;
+}
+
+.message-alimtalk .desc-response .error {
+  color: #ff6b6b;
+}
+
+.message-alimtalk .desc-col {
+  padding-bottom: 0.5em;
+}
+
+.message-alimtalk .btn.confirm {
+  height: 3em;
+}
+
+.connects .consulting-media {
+  max-width: 400px;
+}
+
+.connects .consulting-media .title {
+  font-size: 16px;
+}
+
+.connects .consulting-event {
+  max-width: 900px;
+}
+
+.connects .consulting-event .title {
+  font-size: 16px;
+}
+
+.connects .consulting-connect .title {
+  font-size: 16px;
+}
+
+.consulting-request-connect .tabs .tab {
+  padding: 12px;
+  border: 1px solid #e9e9ed;
+  min-width: 200px;
+  font-size: 16px;
+  margin-right: 0 !important;
+}
+
+.consulting-request-connect .tabs .tab:hover {
+  cursor: pointer;
+}
+
+.consulting-request-connect .tabs .tab.disabled {
+  color: #adacb0;
+}
+
+.consulting-request-connect .flex-row > *:not(:last-child) {
+  margin-right: 16px;
+}
+
+.modal-event-registration button a {
+  color: #000000;
+  font-weight: 500;
+}
+
+.modal-consulting-requests {
+  min-width: 700px;
+}
+
+.modal-consulting-requests table {
+  width: 100%;
+}
+
+.modal-consulting-requests span.comment {
+  display: table;
+  margin-left: auto;
+  color: red;
+}
+
+.counselors .subtitle {
+  font-size: 15px;
+}
+
+.new-customer {
+  color: #ffffff;
+  background-color: #6da42e;
+  border-radius: 8px;
+}
+
+.existing-customer {
+  color: #ffffff;
+  background-color: #5c5b76;
+  border-radius: 8px;
+}
+
+.modal-consulting {
+  min-width: 1000px;
+}
+
+.modal-consulting .tab {
+  min-width: 80px !important;
+  font-size: 12px !important;
+}
+
+.modal-consulting .tab .selected {
+  font-weight: bold;
+}
+
+.modal-consulting .request-data {
+  max-height: 200px;
+}
+
+.modal-consulting .request-data table {
+  width: 100%;
+  height: 100%;
+  border: solid 1px #e9e9ed;
+}
+
+.modal-consulting .request-data th {
+  color: #400e40;
+}
+
+.modal-consulting .responsive-history-data .data-table,
+.modal-consulting .unresponsive-data .data-table {
+  overflow: scroll;
+}
+
+.modal-consulting .responsive-history-data span,
+.modal-consulting .unresponsive-data span {
+  font-weight: bold;
+}
+
+.modal-consulting .handling-data {
+  position: relative;
+}
+
+.modal-consulting .handling-data .dim {
+  position: absolute;
+  z-index: 100;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(216, 216, 216, 0.5);
+  text-align: center;
+}
+
+.modal-consulting .handling-data .dim div {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.modal-change-counselors table {
+  min-width: 100%;
+  text-align: center;
+}
+
+.modal-change-counselors table button {
+  margin: auto;
+}
+
+.message-boilerplate-selector .message-caller-numbers,
+.message-codes .message-caller-numbers {
+  width: 600px;
+}
+
+.message-boilerplate-selector .message-boilerplate,
+.message-codes .message-boilerplate {
+  width: 1050px;
+}
+
+.message-boilerplate-selector .message-auto-notification,
+.message-codes .message-auto-notification {
+  width: 1280px;
+}
+
+.message-boilerplate-selector .data-table td.category .item-content,
+.message-codes .data-table td.category .item-content {
+  justify-content: flex-start;
+  padding-left: 1em;
+  text-align: left;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.message-boilerplate-selector .data-table td.title-and-content .item-content,
+.message-codes .data-table td.title-and-content .item-content {
+  margin: 0.5em 0;
+  padding: 0;
+  white-space: initial;
+  justify-content: flex-start;
+  padding-left: 1em;
+  text-align: left;
+}
+
+.message-boilerplate-selector
+  .data-table
+  td.title-and-content
+  .item-content
+  label,
+.message-codes .data-table td.title-and-content .item-content label {
+  flex: 0 0 auto;
+}
+
+.message-boilerplate-selector
+  .data-table
+  td.title-and-content
+  .item-content
+  .contents,
+.message-boilerplate-selector
+  .data-table
+  td.title-and-content
+  .item-content
+  .title,
+.message-codes .data-table td.title-and-content .item-content .contents,
+.message-codes .data-table td.title-and-content .item-content .title {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1em;
+  white-space: pre-line;
+  border: 1px solid #f1f3f5;
+}
+
+.message-boilerplate-selector
+  .data-table
+  td.title-and-content
+  .item-content
+  .contents
+  .label,
+.message-boilerplate-selector
+  .data-table
+  td.title-and-content
+  .item-content
+  .title
+  .label,
+.message-codes .data-table td.title-and-content .item-content .contents .label,
+.message-codes .data-table td.title-and-content .item-content .title .label {
+  font-weight: 600;
+  padding: 1em;
+  min-width: 2em;
+  align-self: center;
+  flex: 0 0 auto;
+}
+
+.message-boilerplate-selector
+  .data-table
+  td.title-and-content
+  .item-content
+  .contents
+  .text,
+.message-boilerplate-selector
+  .data-table
+  td.title-and-content
+  .item-content
+  .title
+  .text,
+.message-codes .data-table td.title-and-content .item-content .contents .text,
+.message-codes .data-table td.title-and-content .item-content .title .text {
+  border-left: 1px solid #e9ecef;
+  padding: 1em;
+  justify-content: center;
+}
+
+.message-boilerplate-selector
+  .data-table
+  td.title-and-content
+  .item-content
+  .title
+  + .contents,
+.message-codes
+  .data-table
+  td.title-and-content
+  .item-content
+  .title
+  + .contents {
+  border-top: 0;
+}
+
+.message-history-container {
+  border: 1px solid #400e40;
+  padding: 2em 1em 1em;
+  background-color: white;
+}
+
+.message-history-container .tabs {
+  display: flex;
+  font-size: 1.9em;
+  font-weight: 600;
+  height: 1em;
+  padding-bottom: 1.5em;
+}
+
+.message-history-container .tabs .tab {
+  color: #ced4da;
+  margin-right: 0.5em;
+}
+
+.message-history-container .tabs .tab.selected {
+  color: #212529;
+}
+
+.message-history-container .tabs .tab:hover {
+  cursor: pointer;
+}
+
+.message-history-container .search-inputs,
+.sms-use-list .search-inputs {
+  display: flex;
+}
+
+.message-history-container .search-inputs .btn,
+.message-history-container .search-inputs .input-datepicker,
+.sms-use-list .search-inputs .btn,
+.sms-use-list .search-inputs .input-datepicker {
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #f1f3f5;
+}
+
+.message-history-container .data-table > td {
+  min-width: none;
+}
+
+.message-codes .message-map {
+  width: 1050px;
+}

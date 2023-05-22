@@ -1,0 +1,43 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+import { styled } from '@storybook/theming';
+import { ColorView } from '~/components/ColorView';
+import { color } from '~/themes/styles';
+
+<Meta title="7. Modal" />
+
+# Unobeauty Modal Guideline
+
+우노뷰티 CRM Popup Guideline은 크게 modal popup과 confirm popup / alert popup으로 구분됩니다.  
+header height는 **52px**을 기본으로 하며, 콘텐츠에 따라 popup width는 조정될 수 있습니다.  
+contents 영역 내 margin은 **16px**을 기본으로 하며, 목적과 용도에 맞게 자유로운 콘텐츠 구성이 가능합니다.  
+contents영역 내용이 길어질 시 title과 bottom은 고정되며 contents 영역 내에서 스크롤이 발생합니다.
+
+### Normal Modal
+
+<figure>
+  <figcaption>Modal / normal</figcaption>
+  <Story id="component-modal-normalmodal--default" />
+</figure>
+
+### Confirm Modal
+
+Confirm Modal은 사용자에게 안내 및 주의를 주거나 유저 액션의 최종 확인이 필요할 때 노출됩니다.  
+되도록 3줄 이내로 작성되며, 버튼은 2개로 정의합니다.  
+width와 height는 376 x 164px를 최소 사이즈로 하며 background는 dim처리되며 background 영역 클릭 시 Confirm popup이 닫힙니다.
+
+<figure>
+  <figcaption>Modal / confirm</figcaption>
+  <Story id="component-modal-confirmmodal--default" />
+</figure>
+
+### Alert Modal
+
+Alert Modal은 사용자에게 안내 및 주의를 주거나 유저 액션의 최종 확인이 필요할 때 노출됩니다.  
+되도록 3줄 이내로 작성되며, 버튼은 1개로 정의합니다.  
+width와 height는 376 x 164px를 최소 사이즈로 하며 background는 dim처리되며 background 영역 클릭 시 Alert popup이 닫힙니다.
+
+<figure>
+  <figcaption>Modal / alert</figcaption>
+  <Story id="component-modal-alertmodal--default" />
+</figure>

@@ -1,0 +1,353 @@
+import { Meta } from '@storybook/addon-docs';
+import { styled } from '@storybook/theming';
+import { typo } from '~/themes/styles';
+import PayStatus from '~/components/crm/customer-chart/PayStatus';
+import { ChartTypeBadge } from '~/components/crm/customer-chart/ChartTypeBadge';
+import { StatusInfoBadge } from '~/components/StatusInfoBadge';
+import { StatusColor } from '~/core/statusColor';
+import StatusLabel from '~/components/modals/deposits/StatusLabel';
+import { DepositsType } from '~/components/modals/deposits/DepositsType';
+
+import { ReactComponent as IDCardIcon } from '@ic/common/ic-id-card-24.svg';
+import { ReactComponent as ToDoIcon } from '@ic/common/ic-todo-24.svg';
+import { ReactComponent as ToDoDotIcon } from '@ic/common/ic-todo-new-dot-24.svg';
+import { ReactComponent as MemoIcon } from '@ic/common/ic-memo-24.svg';
+import { ReactComponent as MemoDotIcon } from '@ic/common/ic-memo-new-dot-24.svg';
+import { ReactComponent as SingleOn24Icon } from '@ic/common/ic-table-on-24.svg';
+import { ReactComponent as SingleOff24Icon } from '@ic/common/ic-table-off-24.svg';
+import { ReactComponent as DualOn24Icon } from '@ic/common/ic-table-on-dual-24.svg';
+import { ReactComponent as DualOff24Icon } from '@ic/common/ic-table-off-dual-24.svg';
+import { ReactComponent as Plus24Icon } from '@ic/common/ic-plus-oval-dark-24.svg';
+import { ReactComponent as Minus24Icon } from '@ic/common/ic-minus-oval-alert-24.svg';
+import { ReactComponent as NotificationIcon } from '@ic/common/ic-notification-24.svg';
+
+import { ReactComponent as ArrowFillRightIcon } from '@ic/common/ic-arrow-right-fill-16.svg';
+import { ReactComponent as ArrowFillLeftIcon } from '@ic/common/ic-arrow-left-fill-16.svg';
+import { ReactComponent as MinimumIcon } from '@ic/common/ic-minimum-dark-16.svg';
+import { ReactComponent as SpreadDarkIcon } from '@ic/common/ic-spread-dark-16.svg';
+import { ReactComponent as ReduceDarkIcon } from '@ic/common/ic-reduce-dark-16.svg';
+import { ReactComponent as ArrowUpIcon } from '@ic/common/ic-arrow-up-fill-16.svg';
+import { ReactComponent as ArrowUpLineSmallIcon } from '@ic/common/ic-arrow-up-line-small-16.svg';
+import { ReactComponent as ArrowUpLineIcon } from '@ic/common/ic-arrow-up-line-16.svg';
+import { ReactComponent as FoldDarkIcon } from '@ic/common/ic-fold-dark-16.svg';
+import { ReactComponent as ExpandDarkIcon } from '@ic/common/ic-expand-dark-16.svg';
+import { ReactComponent as ArrowDownIcon } from '@ic/common/ic-arrow-down-fill-16.svg';
+import { ReactComponent as ArrowDownLineSmallIcon } from '@ic/common/ic-arrow-down-line-small-16.svg';
+import { ReactComponent as ArrowDownLineIcon } from '@ic/common/ic-arrow-down-line-16.svg';
+import { ReactComponent as MinimumGreyIcon } from '@ic/common/ic-minimum-grey-16.svg';
+import { ReactComponent as CloseLargeIcon } from '@ic/common/ic-close-large-dark-16.svg';
+import { ReactComponent as CloseSmallIcon } from '@ic/common/ic-close-small-dark-16.svg';
+import { ReactComponent as MoveIcon } from '@ic/common/ic-move-dark-16.svg';
+import { ReactComponent as MoreIcon } from '@ic/common/ic-more-dark-16.svg';
+import { ReactComponent as DrawerIcon } from '@ic/common/ic-drawer-dark-16.svg';
+import { ReactComponent as MinusIcon } from '@ic/common/ic-minus-dark-16.svg';
+import { ReactComponent as PlusIcon } from '@ic/common/ic-plus-dark-16.svg';
+import { ReactComponent as CloseOvalIcon } from '@ic/common/ic-close-oval-dark-16.svg';
+import { ReactComponent as DeleteDarkIcon } from '@ic/common/ic-delete-dark-16.svg';
+import { ReactComponent as SideBarIcon } from '@ic/common/ic-write-sidebar-dark-16.svg';
+import { ReactComponent as EditIcon } from '@ic/common/ic-edit-dark-16.svg';
+import { ReactComponent as Edit } from '@ic/common/ic-edit-16.svg';
+import { ReactComponent as CalIcon } from '@ic/common/ic-cal-dark-16.svg';
+import { ReactComponent as SettingSmallIcon } from '@ic/common/ic-set-fill-small-16.svg';
+import { ReactComponent as SettingIcon } from '@ic/common/ic-set-fill-16.svg';
+import { ReactComponent as MessageIcon } from '@ic/common/ic-message-dark-16.svg';
+import { ReactComponent as FolderIcon } from '@ic/common/ic-folder-dark-16.svg';
+import { ReactComponent as SearchIcon } from '@ic/common/ic-search-dark-16.svg';
+import { ReactComponent as ArchiveIcon } from '@ic/common/ic-archive-16.svg';
+import { ReactComponent as DeleteIcon } from '@ic/common/ic-delete-16.svg';
+import { ReactComponent as TagIcon } from '@ic/common/ic-tag-dark-16.svg';
+import { ReactComponent as ResetIcon } from '@ic/common/ic-reset-16.svg';
+import { ReactComponent as PopupIcon } from '@ic/common/ic-popup-dark-16.svg';
+import { ReactComponent as PopupInIcon } from '@ic/common/ic-popupin-dark-16.svg';
+import { ReactComponent as NotiBlueIcon } from '@ic/common/ic-noti-blue-16.svg';
+import { ReactComponent as InfoBlueIcon } from '@ic/common/ic-info-blue-16.svg';
+import { ReactComponent as DragbarIcon } from '@ic/common/ic-dragbar.svg';
+import { ReactComponent as PinIcon } from '@ic/common/ic-pin-fill-16.svg';
+import { ReactComponent as PinLineIcon } from '@ic/common/ic-pin-line-16.svg';
+import { ReactComponent as RectangleIcon } from '@ic/common/ic-rectangle-16.svg';
+import { ReactComponent as Plus16Icon } from '@ic/common/ic-plus-oval-dark-16.svg';
+import { ReactComponent as Minus16Icon } from '@ic/common/ic-minus-oval-alert-16.svg';
+import { ReactComponent as RegistrationIcon } from '@ic/common/ic-registration.svg';
+import { ReactComponent as ConsultingIcon } from '@ic/common/ic-consulting.svg';
+import { ReactComponent as TreatmentIcon } from '@ic/common/ic-treatment.svg';
+import { ReactComponent as SurgeryIcon } from '@ic/common/ic-surgery.svg';
+import { ReactComponent as SkincareIcon } from '@ic/common/ic-skincare.svg';
+import { ReactComponent as PaymentIcon } from '@ic/common/ic-payment.svg';
+
+import { ReactComponent as CategoryGreyIcon } from '@ic/common/ic-category-grey-12.svg';
+import { ReactComponent as SetSmallGreyIcon } from '@ic/common/ic-set-fill-grey-12.svg';
+import { ReactComponent as SingleOnIcon } from '@ic/common/ic-table-on.svg';
+import { ReactComponent as SingleOffIcon } from '@ic/common/ic-table-off.svg';
+import { ReactComponent as DualOnIcon } from '@ic/common/ic-table-on-dual.svg';
+import { ReactComponent as DualOffIcon } from '@ic/common/ic-table-off-dual.svg';
+
+export const DefaultStatusColors = [
+  {
+    id: StatusColor.scheduled,
+    backgroundColor: '#F4C442',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.canceled,
+    backgroundColor: '#E85A54',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.no_show,
+    backgroundColor: '#293141',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.consulting_waiting,
+    backgroundColor: '#56B1E4',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.consulting_during,
+    backgroundColor: '#5080FA',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.treatment_waiting,
+    backgroundColor: '#8692FF',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.treatment_during,
+    backgroundColor: '#675FEF',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.surgery_waiting,
+    backgroundColor: '#FF883D',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.surgery_during,
+    backgroundColor: '#FF508C',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.payment_waiting,
+    backgroundColor: '#D1E20F',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.complete,
+    backgroundColor: '#727776',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.leave,
+    backgroundColor: '#C1C1C1',
+    textColor: '#000',
+  },
+  {
+    id: StatusColor.absence,
+    backgroundColor: '#A4A4A4',
+    textColor: '#000',
+    hideFilter: true,
+  },
+  {
+    id: StatusColor.registration_canceled,
+    backgroundColor: '#333333',
+    textColor: '#000',
+  },
+];
+
+<Meta title="8. Icon, Badge" />
+
+export const Wrapper = styled.div`
+  display: flex;
+  gap: 10px;
+`;
+
+export const Section = styled.div`
+  margin-right: 50px;
+`;
+
+export const FlexWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+`;
+
+export const SingleIconWrapper = styled.div`
+  svg {
+    fill: #2c62f6;
+  }
+`;
+
+# Unobeauty Icon
+
+우노뷰티 CRM Icon Guideline의 아이콘은 사용자에게 아이디어 및 오브젝트를 전달하는 가장 효율적인 도구입니다.
+Grid는 24 x 24px을 기본으로 하며, 크기 및 목적에 따라 조정될 수 있습니다.
+
+<Wrapper>
+  <Section>
+    <div>24px</div>
+    <FlexWrapper>
+      <IDCardIcon />
+      <IDCardIcon />
+    </FlexWrapper>
+    <FlexWrapper>
+      <ToDoIcon/>
+      <ToDoDotIcon />
+    </FlexWrapper>
+    <FlexWrapper>
+      <MemoIcon />
+      <MemoDotIcon />
+    </FlexWrapper>
+    <FlexWrapper>
+      <SingleOn24Icon />
+      <DualOn24Icon />
+    </FlexWrapper>
+    <FlexWrapper>
+      <SingleOff24Icon />
+      <DualOff24Icon />
+    </FlexWrapper>
+    <FlexWrapper>
+      <Plus24Icon />
+      <Minus24Icon />
+    </FlexWrapper>
+    <FlexWrapper>
+      <NotificationIcon />
+    </FlexWrapper>
+  </Section>
+
+<Section>
+  <div>16px</div>
+  <FlexWrapper>
+    <ArrowFillRightIcon />
+    <ArrowFillLeftIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <MinimumIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <SpreadDarkIcon />
+    <ReduceDarkIcon />
+    <ArrowUpIcon />
+    <ArrowUpLineSmallIcon />
+    <ArrowUpLineIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <FoldDarkIcon />
+    <ExpandDarkIcon />
+    <ArrowDownIcon />
+    <ArrowDownLineSmallIcon />
+    <ArrowDownLineIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <MinimumGreyIcon />
+    <CloseLargeIcon />
+    <CloseSmallIcon />
+    <MoveIcon />
+    <MoreIcon />
+    <DrawerIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <MinusIcon />
+    <PlusIcon />
+    <CloseOvalIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <DeleteDarkIcon />
+    <SideBarIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <EditIcon />
+    <Edit />
+    <CalIcon />
+    <SettingSmallIcon />
+    <SettingIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <MessageIcon />
+    <FolderIcon />
+    <SearchIcon />
+    <ArchiveIcon />
+    <DeleteIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <TagIcon />
+    <ResetIcon />
+    <PopupIcon />
+    <PopupInIcon />
+    <NotiBlueIcon />
+    <InfoBlueIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <DragbarIcon />
+    <PinIcon />
+    <PinLineIcon />
+  </FlexWrapper>
+  <FlexWrapper>
+    <RectangleIcon />
+  </FlexWrapper>
+  <Plus16Icon />
+  <Minus16Icon />
+  <FlexWrapper>
+    <RegistrationIcon />
+    <ConsultingIcon />
+    <TreatmentIcon />
+    <SurgeryIcon />
+    <SkincareIcon />
+    <PaymentIcon />
+  </FlexWrapper>
+</Section>
+
+  <Section>
+    <div>12px</div>
+    <FlexWrapper>
+      <CategoryGreyIcon />
+      <SetSmallGreyIcon />
+    </FlexWrapper>
+    <FlexWrapper>
+      <SingleOnIcon />
+      <SingleOffIcon />
+    </FlexWrapper>
+    <FlexWrapper>
+      <DualOnIcon />
+      <DualOffIcon />
+    </FlexWrapper>
+  </Section>
+</Wrapper>
+
+# Unobeauty Badge
+
+badge/state/payment
+
+<Wrapper>
+  <PayStatus type="unpaid" />
+  <PayStatus type="part_refund" />
+  <PayStatus type="paid" />
+  <PayStatus type="queued" />
+</Wrapper>
+
+badge/state/charge
+
+<Wrapper>
+  <StatusLabel type={DepositsType.use} />
+  <StatusLabel type={DepositsType.cancel_use} />
+  <StatusLabel type={DepositsType.charge} />
+  <StatusLabel type={DepositsType.refund} />
+</Wrapper>
+
+badge/state/memo
+
+<Wrapper>
+  <ChartTypeBadge item={{ type: 'APPOINTMENT' }} />
+  <ChartTypeBadge item={{ type: 'APPOINTMENT', status: 'CANCELED' }} />
+  <ChartTypeBadge item={{ type: 'APPOINTMENT', status: 'NO_SHOW' }} />
+  <ChartTypeBadge item={{ type: 'REGISTRATION' }} />
+</Wrapper>
+
+badge/state/calendar
+
+<Wrapper>
+  {DefaultStatusColors.map((v, i) => (
+    <StatusInfoBadge status={v} selected={true} key={i} />
+  ))}
+</Wrapper>

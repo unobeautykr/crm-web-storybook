@@ -1,0 +1,178 @@
+{
+    "MODAL_LOGOUT_BODY": {
+        "en": "Logout?",
+        "kr": "로그아웃하시겠습니까?"
+    },
+    "CREATE_APPOINTMENT_ON_LUNCHTIME": {
+        "en": "Create appointment on lunchtime?",
+        "kr": "점심시간입니다. 정말로 예약하시겠습니까?"
+    },
+    "CONFIRM_HIDE": {
+        "en": "Are you sure you want to hide?",
+        "kr": "정말로 숨김처리 하시겠습니까?"
+    },
+    "CONFIRM_SHOW": {
+        "en": "Are you sure you want to show?",
+        "kr": "숨김해제 하시겠습니까?"
+    },
+    "CONFIRM_ACTIVATE": {
+        "en": "Are you sure you want to activate?",
+        "kr": "활성화 하시겠습니까?"
+    },
+    "CONFIRM_DEACTIVATE": {
+        "en": "Are you sure you want to deactivate?",
+        "kr": "비활성화 하시겠습니까?"
+    },
+    "CONFIRM_CANCEL": {
+        "en": "Are you sure you want to cancel?",
+        "kr": "취소 하시겠습니까?"
+    },
+    "VISIBILITY_TOGGLED": {
+        "en": "Now it's %s",
+        "kr": "%s 하였습니다"
+    },
+    "DELETE_VALUE_CONFIRM": {
+        "en": "Delete the value <span class='c-primary f-bold'>%s</span>",
+        "kr": "값 <span class='c-primary f-bold'>%s</span>을 삭제합니다"
+    },
+    "REQUIRE_CHANGE_PASSWORD": {
+        "en": "You're using temporary password.<br>Please change the password.",
+        "kr": "현재 임시비밀번호로 로그인했습니다.<br>비밀번호를 변경해주세요."
+    },
+    "PASSWORD_CHANGED": {
+        "en": "Your password has changed.<br>Please login with the new password again.",
+        "kr": "비밀번호가 변경되었습니다.<br>변경된 비밀번호로 새롭게 로그인해주세요."
+    },
+    "CHANGE_PASSWORD": {
+        "en": "Change Password",
+        "kr": "비밀번호 변경"
+    },
+    "CURRENT_PASSWORD": {
+        "en": "Current Password",
+        "kr": "현재 비밀번호"
+    },
+    "NEW_PASSWORD": {
+        "en": "New Password",
+        "kr": "새 비밀번호"
+    },
+    "PASSWORD_CONFIRM": {
+        "en": "Password Confirm",
+        "kr": "비밀번호 확인"
+    },
+    "ERROR_NEW_PASSWORD": {
+        "en": "Password should be at least 8 characters",
+        "kr": "8자 이상 입력해주세요"
+    },
+    "ERROR_PASSWORD_CONFIRM": {
+        "en": "Confirmation password doesn't match",
+        "kr": "비밀번호가 일치하지 않습니다"
+    },
+    "DELETE_CONFIRM": {
+        "en": "Are you sure you want to delete?<br>You cannot undo.",
+        "kr": "정말로 삭제하시겠습니까?<br>삭제 시 복원이 불가능합니다."
+    },
+    "SAVE_APPOINTMENT_TIME_CONFIRM": {
+        "en": "Save changes?<br>Changes will be applied immediately.",
+        "kr": "저장하시겠습니까?<br>저장 즉시 예약 현황판에 반영됩니다."
+    },
+    "DELETE_TREATMENT_ITEM_CONFIRM": {
+        "en": "Delete the treatment item? It won't change unless you save.",
+        "kr": "상담/진료항목을 삭제할까요? 변경사항을 저장하기 전에는 반영되지 않습니다."
+    },
+    "ALIMTALK_CONFIRM": {
+        "en": "Save alimtalk?",
+        "kr": "알림톡을 설정하시겠습니까?"
+    },
+    "DELETE_ALIMTALK_CONFIRM": {
+        "en": "Are you sure you want to delete the Alimtalk?<br>You will no longer be able to use Alimtalk.",
+        "kr": "정말로 알림톡 설정을 해제하시겠습니까?<br>해제시, 알림톡 전송은 더 이상 사용이 불가능합니다."
+    },
+    "PAYMENT_PRODUCTS": {
+        "en": "Payment Products",
+        "kr": "구매 제품"
+    },
+    "PRODUCT": {
+        "en": "Product",
+        "kr": "제품"
+    },
+    "QUANTITY": {
+        "en": "Quantity",
+        "kr": "수량"
+    },
+    "QTY_PRICE": {
+        "en": "Qty. Price",
+        "kr": "항목 총 가격"
+    },
+    "ADD_PRODUCT": {
+        "en": "Payment Products",
+        "kr": "제품 추가"
+    },
+    "CANCEL_APPOINTMENT_CONFIRM": {
+        "en": "Cancel the appointment?",
+        "kr": "등록된 예약을 취소하시겠습니까?"
+    },
+    "CUSTOMER_FINDER": {
+        "en": "Find Customer",
+        "kr": "고객조회"
+    },
+    "INIT_FILTERS_CONFIRM": {
+        "en": "Init filters?",
+        "kr": "필터를 초기화할까요?"
+    },
+    "APPLY_FILTERS_CONFIRM": {
+        "en": "Apply %s results as SMS targets?",
+        "kr": "검색된 %s명을 전송대상 고객으로 적용하시겠습니까?"
+    },
+    "POST_SMS_NOTIFICATION": {
+        "en": "Post SMS Notification",
+        "kr": "문자 전송(예약)"
+    },
+    "POST_SMS_NOTIFICATION_CONFIRM": {
+        "en": "Among %s, for whom agreed receiving %s, (targets: %s), post SMS notification?",
+        "kr": "전송대상 고객 %s명 중, %s 수신에 동의한 %s명에게 문자를 전송(예약)하시겠습니까?"
+    },
+    "POST_SMS_NOTIFICATION_DONE": {
+        "en": "You just created (reserved) %s SMS Notification. You can see those histories in 'SMS Notifications' menu.",
+        "kr": "총 %s명에게 문자를 전송(예약) 하였습니다. 문자 전송(예약) 내역은 '문자 전송내역 조회' 화면에서 확인할 수 있습니다."
+    },
+    "MODAL_CONFIRM_DELETE_CLINIC": {
+        "en": "Deactivate The Clinic?",
+        "kr": "정말로 계약해지 하시겠습니까?"
+    },
+    "MODAL_DEACTIVATE_CLINIC_INPUT_NAME": {
+        "en": "Input name of the clinic you're about to deactivate",
+        "kr": "해지하고자 하는 곳의 상호명을 입력하세요"
+    },
+    "MODAL_DEACTIVATE_CLINIC_PLACEHOLDER": {
+        "en": "Input clinic name",
+        "kr": "상호(사업명) 입력"
+    },
+    "DEACTIVATE_WARNING_TITLE": {
+        "en": "※ Read below very carefully before continue",
+        "kr": "※ 계약해지 전, 반드시 읽어주세요"
+    },
+    "DEACTIVATE_WARNING_BODY": {
+        "en": "1. Every account connected to that client will be deleted.<br><br>2. All customer, appointment, ETC info will be deleted.<br><br>3. However, CMS, SMS request won't be automatically canceled/refunded.",
+        "kr": "1. 계약해지 시, 해당 클라이언트의 모든 계정은 접속불가 및 삭제처리 됩니다.<br><br>2. 클라이언트가 입력한 고객정보, 예약정보 등의 모든 정보가 삭제됩니다.<br><br>3. 단, 월 관리비 청구 및 문자충전금은 자동으로 취소/환불되지 않습니다."
+    },
+    "CLINIC_DEACTIVATED": {
+        "en": "Clinic Deactivated",
+        "kr": "계약해지 처리하였습니다."
+    },
+    "MEMO_PLACEHOLDER": {
+        "en": "Input Memo",
+        "kr": "메모를 입력하세요"
+    },
+    "CREATE_ABSENCE_SCHEDULE": {
+        "en": "Create Abscence Shcedule",
+        "kr": "부재일정 등록"
+    },
+    "EDIT_ABSENCE_SCHEDULE": {
+        "en": "Edit Abscence Shcedule",
+        "kr": "부재일정 수정"
+    },
+    "CONFIRM_REMOVED": {
+        "en": "The items above will be removed.\nAre you sure you want to confirm?",
+        "kr": "이 항목들은 제외됩니다. \n진행 하시겠습니까?"
+    }
+}

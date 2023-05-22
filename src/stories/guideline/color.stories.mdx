@@ -1,0 +1,55 @@
+import { Meta } from '@storybook/addon-docs';
+import { styled } from '@storybook/theming';
+import { ColorView } from '~/components/ColorView';
+import { color } from '~/themes/styles';
+
+<Meta title="1. Color" />
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0 30px 0;
+`;
+
+# Color Guideline
+
+우노뷰티 CRM Color Guide는 **Unoblue(#2C62F6)** 을 기본으로 사용하며 표준화된 컬러 및 사용가이드를 제공하여 디자이너가 일관성 있는 브랜드 경험을 만들어 나갈 수 있도록 돕습니다.
+디자이너는 목적성 있는 컬러 사용을 통해 유저와 서비스간의 명확한 의사소통이 이루어질 수 있도록 해야합니다.
+
+### Primary Color Palette
+
+<Wrapper>
+  <ColorView name="Unoblue" color={color.primary.unoblue} />
+  <ColorView name="Deepblue" color={color.primary.deepblue} />
+</Wrapper>
+
+### Bluegrey Permissible Opacity
+
+<Wrapper>
+  <ColorView name="Bluegrey / 700" color={color.bluegrey[700]} />
+  <ColorView name="Bluegrey / 600" color={color.bluegrey[600]} />
+  <ColorView name="Bluegrey / 500" color={color.bluegrey[500]} />
+  <ColorView name="Bluegrey / 300" color={color.bluegrey[300]} />
+  <ColorView name="Bluegrey / 200" color={color.bluegrey[200]} />
+  <ColorView name="Bluegrey / 100" color={color.bluegrey[100]} />
+</Wrapper>
+
+### Grey Permissible Opacity
+
+<Wrapper>
+  <ColorView name="Grey / 700" color={color.grey[700]} />
+  <ColorView name="Grey / 600" color={color.grey[600]} />
+  <ColorView name="Grey / 500" color={color.grey[500]} />
+  <ColorView name="Grey / 400" color={color.grey[400]} />
+  <ColorView name="Grey / 300" color={color.grey[300]} />
+</Wrapper>
+
+### Common Permissible Opacity
+
+<Wrapper>
+  <ColorView name="Line" color={color.line} />
+  <ColorView name="Background / grey" color={color.background.grey} />
+  <ColorView name="Background / white" color={color.background.white} />
+  <ColorView name="Alert" color={color.alert} />
+</Wrapper>

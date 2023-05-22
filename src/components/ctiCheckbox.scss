@@ -1,0 +1,41 @@
+.cti-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cti-checkbox {
+  display: none;
+}
+
+.cti-checkbox + label {
+  background: url('../../assets/images/icon/cti-checkbox.svg') no-repeat center;
+  background-size: contain;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+}
+
+.cti-checkbox:checked + label {
+  background: url('../../assets/images/icon/cti-checkbox-checked.svg') no-repeat
+    center;
+  background-size: contain;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+}
+
+.cti-checkbox:disabled + label {
+  background: url('../../assets/images/icon/cti-checkbox-disabled.svg')
+    no-repeat center;
+}
+
+.cti-checkbox:disabled + label::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: rgba(255, 255, 255, 0.5);
+}

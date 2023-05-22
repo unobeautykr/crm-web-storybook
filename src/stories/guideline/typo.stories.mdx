@@ -1,0 +1,94 @@
+import { Meta } from '@storybook/addon-docs';
+import { styled } from '@storybook/theming';
+import { typo } from '~/themes/styles';
+
+<Meta title="2. Typography" />
+
+export const Table = styled.table`
+  width: 80%;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 50px;
+  font-family: ${typo.fontFamily};
+  font-size: 13px;
+  th {
+    border: 0;
+    font-weight: bold;
+  }
+  td {
+    padding: 25px 0;
+    border-bottom: 1px solid #f1f1f1;
+  }
+`;
+
+# Typography Guideline
+
+우노뷰티 CRM Typography는 **Noto Sans KR**을 기본으로 사용하며 디자인과 개발단의 효율적인 작업을 가능하게 합니다.  
+정의된 타입 스케일과 컬러를 고려하여 적용된 타이포그래피는 콘텐츠의 중요한 정도를 구분하고, 텍스트 전체의 밸런스를 맞추어 사용자의 프로덕트 경험을 향상시킵니다.
+
+<Table>
+  <thead>
+    <tr>
+      <th width="33%">Style</th>
+      <th width="33%">Weight</th>
+      <th width="33%">Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={typo.heading[1]}>Heading 1</td>
+      <td>Bold</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td style={typo.heading[2]}>Heading 2</td>
+      <td>Bold</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td style={typo.heading[3]}>Heading 3</td>
+      <td>Bold</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td style={typo.heading[4]}>Heading 4</td>
+      <td>Mdeium</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td style={typo.title[1]}>Title 1</td>
+      <td>Bold</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td style={typo.body[1]}>Body 1</td>
+      <td>Mdeium</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td style={typo.body[2]}>Body 3</td>
+      <td>Mdeium</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td style={typo.body[3]}>Body 4</td>
+      <td>Bold</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td style={typo.body[4]}>Body 5</td>
+      <td>Mdeium</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td style={typo.body[5]}>Body 6</td>
+      <td>Bold</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td style={typo.body[6]}>Body 7</td>
+      <td>Mdeium</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</Table>

@@ -1,0 +1,638 @@
+{
+  "LOGIN": {
+    "en": "Login",
+    "kr": "로그인"
+  },
+  "PLACEHOLDER_EMAIL": {
+    "en": "Type the ID (Email)",
+    "kr": "아이디(이메일)를 입력하세요"
+  },
+  "PLACEHOLDER_PASSWORD": {
+    "en": "Type the password",
+    "kr": "비밀번호를 입력하세요"
+  },
+  "CONTACT_TO": {
+    "en": "Contact",
+    "kr": "문의하기"
+  },
+  "MENU_SETTINGS": {
+    "en": "Menu Settings",
+    "kr": "메뉴권한"
+  },
+  "MENU_SETTING_DESC": {
+    "en": "Select the menu that the authority group can access/use",
+    "kr": "해당 권한그룹이 접근/사용할 수 있는 메뉴들을 선택해주세요"
+  },
+  "SELECT_ROLE": {
+    "en": "Select the role",
+    "kr": "역할을 선택해주세요"
+  },
+  "SELECT_AUTHORITY_GROUP": {
+    "en": "Select the authority group",
+    "kr": "권한그룹을 선택해주세요"
+  },
+  "FIND_PASSWORD": {
+    "en": "Find Password",
+    "kr": "비밀번호 찾기"
+  },
+  "STATUS_PANEL": {
+    "en": "Status Panel",
+    "kr": "현황판"
+  },
+  "CLINICS": {
+    "en": "Clinics",
+    "kr": "클라이언트 계정관리"
+  },
+  "CLINIC_BILLS": {
+    "en": "Clinic Bills",
+    "kr": "클라이언트 청구관리"
+  },
+  "CERTIFICATIONS": {
+    "en": "Certifications",
+    "kr": "전자서명 관리"
+  },
+  "SMS_POINT_REQUESTS": {
+    "en": "SMS Point Requests",
+    "kr": "문자 충전 신청"
+  },
+  "SMS_POINT_MANAGEMENTS": {
+    "en": "SMS Point Managements",
+    "kr": "문자충전 관리"
+  },
+  "NOTICES": {
+    "en": "Notices",
+    "kr": "공지사항"
+  },
+  "CUSTOMERS": {
+    "en": "Customers",
+    "kr": "고객 조회"
+  },
+  "CHART_NO_PLACEHOLDER": {
+    "en": "Chart No. will automatically be created after finish saving",
+    "kr": "자동생성"
+  },
+  "INFO": {
+    "en": "Info",
+    "kr": "정보"
+  },
+  "APPOINTMENT": {
+    "en": "Appointment",
+    "kr": "예약"
+  },
+  "REGISTRATION": {
+    "en": "Registration",
+    "kr": "접수"
+  },
+  "CONSULTING": {
+    "en": "Consulting",
+    "kr": "상담"
+  },
+  "TREATMENT": {
+    "en": "Treatment",
+    "kr": "진료"
+  },
+  "SURGERY": {
+    "en": "Surgery",
+    "kr": "시/수술"
+  },
+  "PAYMENT": {
+    "en": "Payment",
+    "kr": "수납"
+  },
+  "NURSE_OPERATION": {
+    "en": "NurseOperation",
+    "kr": "수술간호"
+  },
+  "NURSE_OPERATIONS": {
+    "en": "NurseOperation",
+    "kr": "수술간호 조회"
+  },
+  "NURSE_CARE": {
+    "en": "NurseCare",
+    "kr": "간호"
+  },
+  "NURSE_CARES": {
+    "en": "NurseCare",
+    "kr": "간호 조회"
+  },
+  "SKINCARE": {
+    "en": "SkinCare",
+    "kr": "피부관리"
+  },
+  "SUMMARY_STATISTICS": {
+    "en": "Summary Statistics",
+    "kr": "매출 통계 요약"
+  },
+  "SALES_STATISTICS": {
+    "en": "Sales Statistics",
+    "kr": "매출 통계"
+  },
+  "COUNSELOR_STATISTICS": {
+    "en": "Counselor Statistics",
+    "kr": "상담사별 통계"
+  },
+  "DOCTOR_STATISTICS": {
+    "en": "Doctor Statistics",
+    "kr": "의사별 통계"
+  },
+  "CUSTOMER_STATISTICS": {
+    "en": "Customer Statistics",
+    "kr": "고객 통계"
+  },
+  "TREATMENT_ITEM_STATISTICS": {
+    "en": "TreatmentItem Statistics",
+    "kr": "시수술 통계"
+  },
+  "ACQUISITION_CHANNEL_STATISTICS": {
+    "en": "AcquisitionChannel Statistics",
+    "kr": "내원경로 통계"
+  },
+  "REGION_STATISTICS": {
+    "en": "Region Statistics",
+    "kr": "국가/지역별 통계"
+  },
+  "RECOMMENDER_STATISTICS": {
+    "en": "Recommender Statistics",
+    "kr": "소개자별 통계"
+  },
+  "SMS_NOTIFICATION": {
+    "en": "SMS Notification",
+    "kr": "문자전송내역"
+  },
+  "LIST_APPOINTMENT": {
+    "en": "Appointment",
+    "kr": "예약내역"
+  },
+  "LIST_CONSULTING": {
+    "en": "Consulting",
+    "kr": "상담내역"
+  },
+  "LIST_TREATMENT": {
+    "en": "Treatment",
+    "kr": "진료내역"
+  },
+  "LIST_SURGERY": {
+    "en": "Surgery",
+    "kr": "시/수술내역"
+  },
+  "LIST_PAYMENT": {
+    "en": "Payment",
+    "kr": "수납내역"
+  },
+  "LIST_SMS_NOTIFICATION": {
+    "en": "SMS Notification",
+    "kr": "문자전송내역"
+  },
+  "FORM_APPOINTMENT": {
+    "en": "Appointment",
+    "kr": "예약입력"
+  },
+  "FORM_CONSULTING": {
+    "en": "Consulting",
+    "kr": "상담입력"
+  },
+  "FORM_TREATMENT": {
+    "en": "Treatment",
+    "kr": "진료입력"
+  },
+  "FORM_SURGERY": {
+    "en": "Surgery",
+    "kr": "시/수술 입력"
+  },
+  "FORM_PAYMENT": {
+    "en": "Payment",
+    "kr": "수납입력"
+  },
+  "FORM_SMS_NOTIFICATION": {
+    "en": "SMS Notification",
+    "kr": "문자입력"
+  },
+  "FORM_PENCHART": {
+    "en": "Pen Chart",
+    "kr": "펜차트"
+  },
+  "APPOINTMENT_BOARDS": {
+    "en": "Appointment Boards",
+    "kr": "예약 캘린더"
+  },
+  "APPOINTMENTS": {
+    "en": "Appointments",
+    "kr": "예약 조회"
+  },
+  "REGISTRATIONS": {
+    "en": "Registrations",
+    "kr": "접수 조회"
+  },
+  "APPOINTMENT_TIME": {
+    "en": "Appointment Time",
+    "kr": "예약 캘린더 시간"
+  },
+  "CONSULTINGS": {
+    "en": "Consultings",
+    "kr": "상담 조회"
+  },
+  "TREATMENTS": {
+    "en": "Treatments",
+    "kr": "진료 조회"
+  },
+  "CONSULTING_REQUEST": {
+    "en": "Consulting Requests",
+    "kr": "상담문의신청"
+  },
+  "STATISTICS": {
+    "en": "Statistics",
+    "kr": "통계"
+  },
+  "SETTLEMENTS": {
+    "en": "SETTLEMENTS",
+    "kr": "결산"
+  },
+  "CHART_SAMPLE": {
+    "en": "Chart Sample",
+    "kr": "펜차트 샘플함"
+  },
+  "PERIODIC_TREATMENTS": {
+    "en": "Periodic Treatments",
+    "kr": "정기 관리 조회"
+  },
+  "PAYMENTS": {
+    "en": "Payments",
+    "kr": "수납 조회"
+  },
+  "SURGERIES": {
+    "en": "Surgeries",
+    "kr": "시/수술 조회"
+  },
+  "OPERATIONS": {
+    "en": "Operations",
+    "kr": "수술간호 조회"
+  },
+  "NURSES": {
+    "en": "Nurses",
+    "kr": "간호 조회"
+  },
+  "SKINS": {
+    "en": "Skins",
+    "kr": "피부관리 조회"
+  },
+  "MANAGE_SMS": {
+    "en": "Manage SMS",
+    "kr": "문자 관리"
+  },
+  "SMS": {
+    "en": "SMS",
+    "kr": "문자"
+  },
+  "SMS_SEND": {
+    "en": "Send SMS",
+    "kr": "문자 전송"
+  },
+  "SMS_NOTIFICATIONS": {
+    "en": "SMS Notifications",
+    "kr": "문자 전송내역 조회"
+  },
+  "SMS_AUTO_NOTIFICATIONS": {
+    "en": "SMS Auto Notifications",
+    "kr": "문자 자동전송"
+  },
+  "SMS_POINTS": {
+    "en": "SMS Points",
+    "kr": "문자 충전"
+  },
+  "SMS_POINT_HISTORIES": {
+    "en": "SMS Point Histories",
+    "kr": "문자 충전내역 조회"
+  },
+  "PRESCRIPTION": {
+    "en": "Prescription",
+    "kr": "처방전 발급/조회"
+  },
+  "PRESCRIPTION_STATISTICS": {
+    "en": "Prescription Statistics",
+    "kr": "처방전 통계"
+  },
+  "SETTINGS": {
+    "en": "Settings",
+    "kr": "환경 설정"
+  },
+  "APPOINTMENT_CODES": {
+    "en": "Appointment Codes",
+    "kr": "예약캘린더 설정"
+  },
+  "ADD_USER": {
+    "en": "Add User",
+    "kr": "계정 추가"
+  },
+  "EDIT_USER": {
+    "en": "Edit User",
+    "kr": "계정 수정"
+  },
+  "ABSENCE_SCHEDULES": {
+    "en": "Abscence Shcedules",
+    "kr": "부재일"
+  },
+  "ABSENCE_SCHEDULES_CALENDAR": {
+    "en": "Abscence Shcedules",
+    "kr": "부재일정확인"
+  },
+  "ABSENCE_SCHEDULE_ALL_DAY": {
+    "en": "Schedule",
+    "kr": "시간"
+  },
+  "CREATE_CUSTOMER": {
+    "en": "Create Customer",
+    "kr": "신규고객등록"
+  },
+  "CUSTOMER_CODES": {
+    "en": "Customer Codes",
+    "kr": "고객코드 설정"
+  },
+  "CONSULTING_CODES": {
+    "en": "Consulting Codes",
+    "kr": "상담코드 설정"
+  },
+  "TREATMENT_CODES": {
+    "en": "Treatment Codes",
+    "kr": "진료코드 설정"
+  },
+  "PAYMENT_CODES": {
+    "en": "Payment Codes",
+    "kr": "수납코드 설정"
+  },
+  "NURSE_CODES": {
+    "en": "Nurse Codes",
+    "kr": "간호코드 설정"
+  },
+  "SMS_NOTIFICATION_CODES": {
+    "en": "SMS Codes",
+    "kr": "문자코드 설정"
+  },
+  "MANAGE_CLINICS": {
+    "en": "Manage Clinics",
+    "kr": "병원 관리"
+  },
+  "HOME": {
+    "en": "Boards (Home)",
+    "kr": "현황판 (홈)"
+  },
+  "USERS": {
+    "en": "Users",
+    "kr": "계정 추가/조회"
+  },
+  "USER_CODES": {
+    "en": "User Codes",
+    "kr": "계정코드 설정"
+  },
+  "CLINIC_INFO": {
+    "en": "Clinic Info",
+    "kr": "병원 정보"
+  },
+  "CLINIC_INFO_DESC": {
+    "en": "상호(병원명) 변경되었을 시엔 cs@carecrm.co.kr)로 연락부탁드립니다.",
+    "kr": "상호(병원명) 변경되었을 시엔 cs@carecrm.co.kr)로 연락부탁드립니다."
+  },
+  "CLINIC_NAME": {
+    "en": "Clinic Name",
+    "kr": "상호(병원명)"
+  },
+  "CLINIC_EMPLOYER_NO": {
+    "en": "Employer No.",
+    "kr": "사업자등록번호"
+  },
+  "CLINIC_OWNER_NAME": {
+    "en": "Owner Name",
+    "kr": "대표자"
+  },
+  "CLINIC_ADDRESS": {
+    "en": "Address",
+    "kr": "사업장소재지"
+  },
+  "CLINIC_CONTACT_MANAGER": {
+    "en": "Contact Manager",
+    "kr": "담당자 이름"
+  },
+  "CLINIC_CONTACT_TEL": {
+    "en": "Contact Tel.",
+    "kr": "담당자 번호"
+  },
+  "CLINIC_CONTACT_EMAIL": {
+    "en": "Contact Email",
+    "kr": "아이디 (이메일)"
+  },
+  "CLINIC_NO": {
+    "en": "Clinic No",
+    "kr": "요양기관번호"
+  },
+  "CLINIC_TEL": {
+    "en": "Clinic Tel",
+    "kr": "전화번호"
+  },
+  "CLINIC_FAX": {
+    "en": "Clinic Fax",
+    "kr": "팩스번호"
+  },
+  "REJECTION_PHONE_NUMBER": {
+    "en": "Rejection Number",
+    "kr": "080 수신거부번호"
+  },
+  "CMS_DIRECT_DEBIT": {
+    "en": "CMS Direct Debit",
+    "kr": "CMS 자동이체 정보"
+  },
+  "FIND_APPOINTMENTS": {
+    "en": "Find Appointments",
+    "kr": "예약 찾기"
+  },
+  "CREATE_CLINIC": {
+    "en": "Create Clinic",
+    "kr": "신규 클라이언트 등록"
+  },
+  "ACCOUNT_INFO": {
+    "en": "Account Info",
+    "kr": "계정 정보"
+  },
+  "EMPLOYER_INFO": {
+    "en": "Employer Info",
+    "kr": "사업자 정보"
+  },
+  "CMS_INFO": {
+    "en": "CMS Info",
+    "kr": "CMS 자동이체 정보"
+  },
+  "CONTRACTS": {
+    "en": "Contracts",
+    "kr": "계약서"
+  },
+  "CHART_NO_TYPE": {
+    "en": "Chart No. Type",
+    "kr": "자동 차트번호 타입"
+  },
+  "CLINIC": {
+    "en": "Clinic (Client)",
+    "kr": "클리닉 (클라이언트)"
+  },
+  "CLINIC_PASSWORD": {
+    "en": "Temp. Password",
+    "kr": "임시 비밀번호"
+  },
+  "CLINIC_BIZ_LICENSE_URL": {
+    "en": "Business License",
+    "kr": "사업자 등록증"
+  },
+  "CLINIC_MONTHLY_COST": {
+    "en": "Monthly Cost (VAT Included)",
+    "kr": "월 관리비 (VAT 포함)"
+  },
+  "CLINIC_AUTO_TRANSFER_DAY": {
+    "en": "Auto Transfer Day",
+    "kr": "자동이체일"
+  },
+  "CLINIC_BANK": {
+    "en": "Bank",
+    "kr": "은행"
+  },
+  "CLINIC_BANK_ACCOUNT": {
+    "en": "Bank Account",
+    "kr": "계좌번호"
+  },
+  "CLINIC_TAXBILL_EMAIL": {
+    "en": "Taxbill Email",
+    "kr": "세금계산서 발행메일"
+  },
+  "CHART_NO_TYPE_DATE": {
+    "en": "Date Type",
+    "kr": "날짜형"
+  },
+  "CHART_NO_TYPE_NUM": {
+    "en": "Number Type",
+    "kr": "숫자형"
+  },
+  "UPLOAD": {
+    "en": "Upload",
+    "kr": "첨부하기"
+  },
+  "APPOINTMENT_BOARD": {
+    "en": "Appointment Board",
+    "kr": "현황판"
+  },
+  "APPOINTMENT_CALENDAR": {
+    "en": "Appointment Calendar",
+    "kr": "예약 캘린더"
+  },
+  "SMS_HISTORY": {
+    "en": "SMS Hisotry",
+    "kr": "전송내역 조회"
+  },
+  "SMS_POINT_HISTORY": {
+    "en": "SMS Point History",
+    "kr": "충전내역 조회"
+  },
+  "SMS_CODE": {
+    "en": "SMS Codes",
+    "kr": "문자코드 설정"
+  },
+  "ALIMTALK_CODE": {
+    "en": "Alimtalk Code",
+    "kr": "알림톡(카카오톡) 설정"
+  },
+  "CONSULTATION_INQUIRY": {
+    "en": "Consultion Inquiry",
+    "kr": "상담문의"
+  },
+  "MEDIA_CONNECT": {
+    "en": "Consultation Inquiry Settings",
+    "kr": "상담문의 설정"
+  },
+  "CONSULTATION_INQUIRY_ASSIGN": {
+    "en": "Consultation Inquiry Assign",
+    "kr": "담당자 배정"
+  },
+  "PRESCRIPTIONS": {
+    "en": "Prescriptions",
+    "kr": "처방전"
+  },
+  "PENCHART": {
+    "en": "Penchart",
+    "kr": "펜차트"
+  },
+  "NURSECHART": {
+    "en": "Nursechart",
+    "kr": "간호"
+  },
+  "OPERATIONNURSECHART": {
+    "en": "OperationNursechart",
+    "kr": "수술간호"
+  },
+  "SKINMANAGECHART": {
+    "en": "SkinManage",
+    "kr": "피부관리"
+  },
+  "CALLHISTORYCHART": {
+    "en": "CallHistory",
+    "kr": "통화내역"
+  },
+  "CUSTOMER_CODE": {
+    "en": "Customer Codes",
+    "kr": "고객코드 설정"
+  },
+  "APPOINTMENT_CODE": {
+    "en": "Appointment Codes",
+    "kr": "예약캘린더 설정"
+  },
+  "CONSULTING_CODE": {
+    "en": "Consulting Code",
+    "kr": "상담코드 설정"
+  },
+  "PAYMENT_CODE": {
+    "en": "Payment Codes",
+    "kr": "수납코드 설정"
+  },
+  "NURSE_CODE": {
+    "en": "Payment Codes",
+    "kr": "간호코드 설정"
+  },
+  "ORGANIZATION": {
+    "en": "Organization",
+    "kr": "조직 관리"
+  },
+  "USER": {
+    "en": "User",
+    "kr": "직원 관리"
+  },
+  "PENCHART_SAMPLE": {
+    "en": "Penchart Sample",
+    "kr": "펜차트 샘플함"
+  },
+  "SETTLEMENT": {
+    "en": "SETTLEMENT",
+    "kr": "일일 결산"
+  },
+  "SETTLEMENTS_DAILIES": {
+    "en": "SETTLEMENT_DAILIES",
+    "kr": "일일 결산"
+  },
+  "SETTLEMENT_MONTHLY": {
+    "en": "SETTLEMENT",
+    "kr": "월간 결산"
+  },
+  "SETTLEMENTS_MONTHLIES": {
+    "en": "SETTLEMENTS_MONTHLIES",
+    "kr": "월간 결산"
+  },
+  "SETTLEMENTS_DETAILS": {
+    "en": "SETTLEMENTS_DETAILS",
+    "kr": "결산 상세 내역"
+  },
+  "SECURITY_SETTINGS": {
+    "en": "Security settings",
+    "kr": "보안 설정"
+  },
+  "ACCESS_CONTROL": {
+    "en": "Access Control",
+    "kr": "접속IP 관리"
+  },
+  "ACTIVITY_LOG": {
+    "en": "Activity log",
+    "kr": "활동 로그 확인"
+  }
+}

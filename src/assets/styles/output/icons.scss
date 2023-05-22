@@ -1,0 +1,19 @@
+.CrmIcons-root {
+  width: 1em;
+  height: 1em;
+
+  &.CrmIcons-xs {
+    font-size: 0.5rem;
+  }
+
+  &.CrmIcons-small {
+    font-size: 0.75rem;
+  }
+  &.CrmIcons-normal {
+    font-size: 1.25rem;
+  }
+
+  &.CrmIcons-big {
+    font-size: 1.75rem;
+  }
+}

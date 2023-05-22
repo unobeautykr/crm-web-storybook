@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="28px" viewBox="0 0 22 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A2AB9F30-A111-4FC9-9339-EB9E82A140D4</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.177933 0 0 0 0 0.177933 0 0 0 0 0.177933 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="센트릭스_이관" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CTI_센트릭스_상담_element" transform="translate(-760.000000, -1405.000000)">
+            <g id="btn_memo" transform="translate(755.000000, 1402.000000)" filter="url(#filter-1)">
+                <g transform="translate(5.000000, 3.000000)">
+                    <g id="Group-30" transform="translate(0.220000, 0.240000)">
+                        <path d="M14.2438139,0.54 L19.9934172,5.89209985 L20.16,23.925 C20.16,24.3726062 19.9684869,24.7782616 19.6637506,25.07284 C19.3522571,25.3739504 18.9223814,25.56 18.45,25.56 L18.45,25.56 L2.25,25.56 C1.77761861,25.56 1.34774294,25.3739504 1.03624943,25.07284 C0.731513142,24.7782616 0.54,24.3726062 0.54,23.925 L0.54,23.925 L0.54,2.175 C0.54,1.72739381 0.731513142,1.32173839 1.03624943,1.02715997 C1.34774294,0.726049581 1.77761861,0.54 2.25,0.54 L2.25,0.54 L14.2438139,0.54 Z" id="Path" stroke="#000000" stroke-width="1.08" fill-rule="nonzero"></path>
+                        <rect id="Rectangle" fill="#000000" x="7.92" y="16.2" width="6.48" height="1.08" rx="0.54"></rect>
+                        <rect id="Rectangle-Copy-25" fill="#000000" x="7.92" y="18.36" width="9.72" height="1.08" rx="0.54"></rect>
+                        <rect id="Rectangle" stroke="#000000" stroke-width="1.08" x="4.14" y="16.74" width="2.16" height="2.16" rx="0.54"></rect>
+                        <path d="M14.2593662,0.91020376 L14.2593662,5.29423671 C14.2593662,5.89070424 14.7428987,6.37423671 15.3393662,6.37423671 L19.7086158,6.37423671 L19.7086158,6.37423671" id="Path-7" stroke="#000000" stroke-width="1.08"></path>
+                        <g id="Group-30-Copy" transform="translate(3.600000, 10.800000)">
+                            <rect id="Rectangle" fill="#000000" x="4.32" y="0" width="6.48" height="1.08" rx="0.54"></rect>
+                            <rect id="Rectangle-Copy-25" fill="#000000" x="4.32" y="2.16" width="9.72" height="1.08" rx="0.54"></rect>
+                            <rect id="Rectangle" stroke="#000000" stroke-width="1.08" x="0.54" y="0.54" width="2.16" height="2.16" rx="0.54"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

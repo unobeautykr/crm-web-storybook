@@ -1,0 +1,130 @@
+{
+  "ERROR_LOGIN_MISSING_EMAIL": {
+    "en": "Type Email",
+    "kr": "이메일을 입력해주세요"
+  },
+  "ERROR_LOGIN_MISSING_PASSWORD": {
+    "en": "Type Password",
+    "kr": "비밀번호를 입력해주세요"
+  },
+  "ERROR_NUMBERS_ONLY": {
+    "en": "You can only use numbers",
+    "kr": "숫자만 사용할 수 있습니다"
+  },
+  "ERROR_PHONE_TOO_LONG": {
+    "en": "Phone numbers can't exceed 11 characters",
+    "kr": "전화번호는 최대 11자리입니다"
+  },
+  "ERROR_SELECT_CUSTOMER_FIRST": {
+    "en": "Select the customer first",
+    "kr": "고객을 먼저 선택해주세요"
+  },
+  "ERROR_NO_SEARCH_VALUE": {
+    "en": "No search value",
+    "kr": "검색어를 입력해주세요"
+  },
+  "ERROR_AUTHORITY_GROUP_EDIT_DISABLED": {
+    "en": "You can't edit this authority group",
+    "kr": "권한그룹을 수정할 수 없습니다"
+  },
+  "ERROR_AMOUNT_EXCEED_REQUEST": {
+    "en": "Payout amount can't exceed request amount",
+    "kr": "납부 금액은 청구 금액을 초과할 수 없습니다"
+  },
+  "ERROR_AMOUNT_EXCEED_PAYOUT": {
+    "en": "Refund amount can't exceed payout amount",
+    "kr": "환불 금액은 납부 금액을 초과할 수 없습니다"
+  },
+  "ERROR_NO_BOILERPLATE_MESSAGE_AVAILABLE": {
+    "en": "No boilerplate message available",
+    "kr": "등록된 상용구가 없습니다"
+  },
+  "ERROR_IMAGE_TOO_BIG": {
+    "en": "Image size should be less than 300kb",
+    "kr": "300kb 이하 용량의 이미지만 첨부 가능합니다"
+  },
+  "ERROR_IMAGE_VALIDATE": {
+    "en": "Images can only be attached to JPG/JPEG/PNG \nless than 1MB. If the width or height exceeds 1,000px,\nit will be resized and sent.",
+    "kr": "이미지는 1MB이하의 JPG/JPEG만 첨부가능하며 \n가로 또는 세로가 1,000px 이상시, 리사이징되어 전송됩니다"
+  },
+  "ERROR_AUTH_CODE_REQUIRED": {
+    "en": "Enter the auth code",
+    "kr": "인증번호를 입력하세요"
+  },
+  "ERROR_SMS_SEND_PAYLOAD": {
+    "en": "Please check required fields (SMS Type, Caller Number, SMS Notification Type, Contents, No. SMS Targets, Scheduled At if it's scheduled SMS)",
+    "kr": "필수항목들을 확인해주세요 (문자타입, 발신번호, 전송타입, 내용, 전송대상 고객 수, 예약전송이라면 예약시간)"
+  },
+  "ERROR_EMPTY_VALUE": {
+    "en": "Input valid value",
+    "kr": "내용을 입력하세요"
+  },
+  "ERROR_MISSING_FIELD": {
+    "en": "Missing required field: %s",
+    "kr": "필수항목이 누락되었습니다: %s"
+  },
+  "ERROR_CONFLICT_CODE": {
+    "en": "Conflict Code",
+    "kr": "중복된 코드입니다"
+  },
+  "ERROR_EXCEEDED_IMAGES": {
+    "en": "Select only one image.",
+    "kr": "1개의 이미지만 선택하세요"
+  },
+  "ERROR_EXCEEDED_IMAGE_SIZE_300KB": {
+    "en": "Select an image of 300KB or less.",
+    "kr": "300KB 이하의 이미지를 선택하세요."
+  },
+  "ERROR_EXCEEDED_IMAGE_SIZE_1MB": {
+    "en": "Select an image of 1MB or less.",
+    "kr": "1MB 이하의 이미지를 선택하세요."
+  },
+  "ERROR_INVALID_IMAGE_EXT": {
+    "en": "Choose a JPG/JPEG image file.",
+    "kr": "이미지는 JPG/JPEG 파일만 가능합니다."
+  },
+  "ERROR_EMPTY_MESSAGE_CONTENTS": {
+    "en": "Message content was not entered.",
+    "kr": "문자내용이 입력되지 않았습니다."
+  },
+  "ERROR_EXCEEDED_MESSAGE_TITLE": {
+    "en": "You cannot enter over 40 bytes in the text message title.",
+    "kr": "문자제목에 40바이트 이상은 입력할 수 없습니다"
+  },
+  "ERROR_EXCEEDED_MESSAGE_CONTENTS": {
+    "en": "You cannot enter over 2000 bytes as text message content.",
+    "kr": "문자내용으로 2000바이트 이상은 입력할 수 없습니다"
+  },
+  "ERROR_NO_TARGET_SELECTED": {
+    "en": "No target selected.",
+    "kr": "선택된 전송대상이 없습니다."
+  },
+  "ERROR_SELECT_CALLING_NUMBER": {
+    "en": "Select a calling number.",
+    "kr": "발신번호를 선택하세요"
+  },
+  "ERROR_SELECT_SCHEDULE_DATE": {
+    "en": "Select a schedule date.",
+    "kr": "전송 예약날짜를 선택하세요."
+  },
+  "ERROR_SELECT_CONDITION": {
+    "en": "Please select a condition.",
+    "kr": "검색항목을 선택하세요."
+  },
+  "INVALID_PHONENUMBER_FORMAT": {
+    "en": "Invalid PhoneNumber Format",
+    "kr": "번호형식오류"
+  },
+  "DUPLICATED_PHONENUMBERS": {
+    "en": "Duplicated Numbers",
+    "kr": "중복된번호"
+  },
+  "ERROR_INVALID_SCHEDULED_TIME": {
+    "en": "Invalid scheduled time",
+    "kr": "잘못된 예약시간입니다. 일자/시간을 확인하세요."
+  },
+  "ERROR_CTI_CLOSE_FIRST": {
+    "en": "Please end ongoing first before starting another call.",
+    "kr": "상담 중이시던 상담을 완료하신 후 다른 상담을 시작해 주세요."
+  }
+}

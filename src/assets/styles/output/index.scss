@@ -1,0 +1,16 @@
+// Publishing scss->css config 파일을 따로 받지못해서
+// scss가 아닌 최종 컴파일된 css을 적용후 수정 하게 되었음
+// 다른 컴포넌트들의 scss 도 정리를 해야하기 때문에,
+// 추후 시간적 여유가 된다면 파일을 분리하고
+// (작업자가 scss가 편하다면) scss로 변환하는 것으로 하겠습니다
+
+// config가 어떻게 된 것인지 모르겠으나,
+// 현재 중복 class가 많아 정리할 것이 많아보임
+@charset "utf-8";
+@import 'base.css';
+@import 'main.css';
+@import 'routes.css';
+@import 'modal.css';
+@import 'ui.css';
+@import 'ui_prescription.scss';
+@import 'icons.scss';

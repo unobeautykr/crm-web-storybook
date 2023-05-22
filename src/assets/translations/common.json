@@ -1,0 +1,2059 @@
+{
+  "PLACEHOLDER_SEARCH_MENU": {
+    "en": "Menu, Tablename",
+    "kr": "메뉴, 테이블명"
+  },
+  "REQUIRED": {
+    "en": "Required",
+    "kr": "필수"
+  },
+  "PASSWORD": {
+    "en": "Password",
+    "kr": "비밀번호"
+  },
+  "TEMP_PASSWORD": {
+    "en": "Temp. Password",
+    "kr": "임시비밀번호"
+  },
+  "TEMP_PASSWORD_DESC": {
+    "en": "User should change the password for the first login.",
+    "kr": "최초 로그인 시, 임시비밀번호를 수정해야합니다."
+  },
+  "EMAIL_DESC": {
+    "en": "User can reset the password using this email.",
+    "kr": "비밀번호 분실 시 해당 이메일 주소를 통해 재설정 할 수 있습니다."
+  },
+  "CUSTOMER_CHART": {
+    "en": "Customer Chart",
+    "kr": "고객통합차트"
+  },
+  "CHANGE_STATUS": {
+    "en": "Change Statue",
+    "kr": "상태변경"
+  },
+  "COPY_APPOINTMENT": {
+    "en": "Copy Appointment",
+    "kr": "예약복사"
+  },
+  "PASTE": {
+    "en": "Paste",
+    "kr": "붙여넣기"
+  },
+  "CANCEL": {
+    "en": "Cancel",
+    "kr": "취소"
+  },
+  "CLOSE": {
+    "en": "Close",
+    "kr": "닫기"
+  },
+  "GALLERY": {
+    "en": "Gallery",
+    "kr": "사진첩"
+  },
+  "CHANGE": {
+    "en": "Change",
+    "kr": "변경"
+  },
+  "CONFIRM": {
+    "en": "Confirm",
+    "kr": "확인"
+  },
+  "LOGOUT": {
+    "en": "Logout",
+    "kr": "로그아웃"
+  },
+  "FIND": {
+    "en": "Find",
+    "kr": "검색"
+  },
+  "SEARCH": {
+    "en": "Search",
+    "kr": "조회"
+  },
+  "LABEL_SEARCH": {
+    "en": "Search",
+    "kr": "검색"
+  },
+  "WHEN_EMPTY": {
+    "en": "No customer found? Click the 'Create Customer' button",
+    "kr": "찾으시는 고객이 없나요? 없다면, '신규고객등록' 버튼을 클릭하세요"
+  },
+  "RESET_QUERY": {
+    "en": "Reset Condition",
+    "kr": "조건 초기화"
+  },
+  "CREATED": {
+    "en": "Created",
+    "kr": "생성되었습니다"
+  },
+  "UPDATED": {
+    "en": "Updated",
+    "kr": "업데이트되었습니다"
+  },
+  "DELETED": {
+    "en": "Deleted",
+    "kr": "삭제되었습니다"
+  },
+  "COPIED": {
+    "en": "Copied",
+    "kr": "복사되었습니다"
+  },
+  "COPIED_APPOINTMENT": {
+    "en": "Copied",
+    "kr": "복사하였습니다. 원하는 날짜에 우클릭 후 붙여넣기 해주세요."
+  },
+  "CANCELD": {
+    "en": "Canceled",
+    "kr": "취소되었습니다"
+  },
+  "SAVED": {
+    "en": "Saved",
+    "kr": "저장하였습니다"
+  },
+  "FAILED": {
+    "en": "Failed",
+    "kr": "실패하였습니다"
+  },
+  "ADD": {
+    "en": "Add",
+    "kr": "추가"
+  },
+  "EDIT": {
+    "en": "Edit",
+    "kr": "수정"
+  },
+  "INIT": {
+    "en": "Initialize",
+    "kr": "초기화"
+  },
+  "SAVE": {
+    "en": "Save",
+    "kr": "저장"
+  },
+  "HIDE": {
+    "en": "Hide",
+    "kr": "숨김"
+  },
+  "UNHIDE": {
+    "en": "Unhide",
+    "kr": "숨김해제"
+  },
+  "SHOW": {
+    "en": "Show",
+    "kr": "보이기"
+  },
+  "HIDE_HIDDEN": {
+    "en": "Hide Hidden",
+    "kr": "숨김 항목 보지 않기"
+  },
+  "SHOW_DEACTIVATED": {
+    "en": "Show Deactivated",
+    "kr": "계약해지상태 표시"
+  },
+  "INITIALIZE": {
+    "en": "Initialize",
+    "kr": "초기화"
+  },
+  "DISABLED": {
+    "en": "Disabled",
+    "kr": "비활성화"
+  },
+  "READ": {
+    "en": "Read",
+    "kr": "조회"
+  },
+  "WRITE": {
+    "en": "Write",
+    "kr": "조회/등록/수정"
+  },
+  "DELETE": {
+    "en": "Delete",
+    "kr": "삭제"
+  },
+  "PIN": {
+    "en": "Pin",
+    "kr": "상단"
+  },
+  "M": {
+    "en": "M",
+    "kr": "남"
+  },
+  "F": {
+    "en": "F",
+    "kr": "여"
+  },
+  "MALE": {
+    "en": "Male",
+    "kr": "남성"
+  },
+  "FEMALE": {
+    "en": "Female",
+    "kr": "여성"
+  },
+  "AGREE": {
+    "en": "Agree",
+    "kr": "동의"
+  },
+  "DISAGREE": {
+    "en": "Disagree",
+    "kr": "거부"
+  },
+  "ROLE": {
+    "en": "Role",
+    "kr": "역할"
+  },
+  "AUTHORITY_GROUP": {
+    "en": "Authority Group",
+    "kr": "권한그룹"
+  },
+  "ROLES": {
+    "en": "Roles",
+    "kr": "역할"
+  },
+  "AUTHORITY_GROUPS": {
+    "en": "Authority Groups",
+    "kr": "권한그룹"
+  },
+  "ACQUISITION_CHANNEL": {
+    "en": "Acquisition Channel",
+    "kr": "내원경로"
+  },
+  "ACQUISITION_CHANNELS": {
+    "en": "Acquisition Channels",
+    "kr": "내원경로"
+  },
+  "JOBS": {
+    "en": "Jobs",
+    "kr": "직업"
+  },
+  "LEVELS": {
+    "en": "Levels",
+    "kr": "고객등급"
+  },
+  "COMPLAINTS": {
+    "en": "Complaints",
+    "kr": "불만사항"
+  },
+  "REGIONS": {
+    "en": "Regions",
+    "kr": "국가/지역"
+  },
+  "TREATMENT_ITEM_CATEGORIES": {
+    "en": "Treatment Item Categories",
+    "kr": "상담/진료항목"
+  },
+  "TREATMENT_ITEMS": {
+    "en": "Treatment Items",
+    "kr": "세부항목"
+  },
+  "TREATMENT_ITEM_CATEGORY": {
+    "en": "Treatment Item Category",
+    "kr": "상담/진료항목"
+  },
+  "TREATMENT_ITEM": {
+    "en": "Treatment Item",
+    "kr": "세부항목"
+  },
+  "PERIODIC_ITEMS": {
+    "en": "Periodic Items",
+    "kr": "정기관리"
+  },
+  "RESULTS": {
+    "en": "Consulting Results",
+    "kr": "상담 결과"
+  },
+  "COUNSELOR": {
+    "en": "Counselor",
+    "kr": "상담사"
+  },
+  "COUNSELORS": {
+    "en": "Counselors",
+    "kr": "담당 상담사"
+  },
+  "_COUNSELORS": {
+    "en": "Counselors",
+    "kr": "상담사"
+  },
+  "DOCTOR": {
+    "en": "Doctor",
+    "kr": "의사"
+  },
+  "DOCTORS": {
+    "en": "Doctors",
+    "kr": "담당 의사"
+  },
+  "_DOCTORS": {
+    "en": "Doctors",
+    "kr": "의사"
+  },
+
+  "FACIALISTS": {
+    "en": "Facialists",
+    "kr": "피부관리사"
+  },
+  "ASSISTS": {
+    "en": "Assists",
+    "kr": "어시스트"
+  },
+  "NURSES": {
+    "en": "Nurses",
+    "kr": "간호사"
+  },
+  "_NURSES": {
+    "en": "Nurses",
+    "kr": "간호사"
+  },
+  "PRODUCTS": {
+    "en": "Products",
+    "kr": "제품"
+  },
+  "PRODUCT_NAMES": {
+    "en": "Product name",
+    "kr": "제품명"
+  },
+  "REFUND_REASON": {
+    "en": "Refund Reason",
+    "kr": "환불 사유"
+  },
+  "DISCOUNT_REASON": {
+    "en": "Discount Reason",
+    "kr": "할인 사유"
+  },
+  "REFUND_REASONS": {
+    "en": "Refund Reasons",
+    "kr": "환불 사유"
+  },
+  "DISCOUNT_REASONS": {
+    "en": "Discount Reasons",
+    "kr": "할인 사유"
+  },
+  "DEPARTMENT_CATEGORIES": {
+    "en": "Department Categories",
+    "kr": "부서"
+  },
+  "DEPARTMENTS": {
+    "en": "Departments",
+    "kr": "세부부서"
+  },
+  "DEPARTMENT_CATEGORY": {
+    "en": "Department Category",
+    "kr": "부서"
+  },
+  "DEPARTMENT": {
+    "en": "Department",
+    "kr": "세부부서"
+  },
+  "TODAY": {
+    "en": "Today",
+    "kr": "오늘"
+  },
+  "DAY": {
+    "en": "Day",
+    "kr": "일"
+  },
+  "3-DAY": {
+    "en": "3Day",
+    "kr": "3일"
+  },
+  "WEEK": {
+    "en": "Week",
+    "kr": "주"
+  },
+  "MONTH": {
+    "en": "Month",
+    "kr": "월"
+  },
+  "DAYS": {
+    "en": "Days",
+    "kr": "일"
+  },
+  "WEEKS": {
+    "en": "Weeks",
+    "kr": "주"
+  },
+  "MONTHS": {
+    "en": "Months",
+    "kr": "개월"
+  },
+  "EMAIL": {
+    "en": "Email",
+    "kr": "이메일"
+  },
+  "NAME": {
+    "en": "Name",
+    "kr": "이름"
+  },
+  "CUSTOMER": {
+    "en": "Customer",
+    "kr": "고객"
+  },
+  "TYPE": {
+    "en": "Dom./For.",
+    "kr": "내/외국인"
+  },
+  "CHECK_SMS": {
+    "en": "SMS Checkbox",
+    "kr": "문자 전송 체크"
+  },
+  "SELECT": {
+    "en": "Select",
+    "kr": "선택"
+  },
+  "STATUS": {
+    "en": "Status",
+    "kr": "상태"
+  },
+  "CREATED_AT": {
+    "en": "Created At",
+    "kr": "생성"
+  },
+  "CHART_NO": {
+    "en": "Chart No.",
+    "kr": "차트번호"
+  },
+  "BIRTHDAY": {
+    "en": "Birthday",
+    "kr": "생년월일"
+  },
+  "SSN": {
+    "en": "SSN",
+    "kr": "주민등록번호"
+  },
+  "SEX": {
+    "en": "Sex",
+    "kr": "성별"
+  },
+  "ADMIN_PHONE_NUMBER": {
+    "en": "Admin Phone Number",
+    "kr": "관리자 휴대폰번호"
+  },
+  "PHONE_NUMBER": {
+    "en": "Phone Number",
+    "kr": "전화번호"
+  },
+  "ADDRESS": {
+    "en": "Address",
+    "kr": "주소"
+  },
+  "SMS_ENABLED": {
+    "en": "SMS Checkbox",
+    "kr": "문자수신"
+  },
+  "EVENT_SMS_ENABLED": {
+    "en": "Marketing SMS Enabled",
+    "kr": "마케팅 문자수신"
+  },
+  "SMS_TYPE_NORMAL": {
+    "en": "SMS (Normal)",
+    "kr": "문자 (일반)"
+  },
+  "SMS_TYPE_EVENT": {
+    "en": "Event SMS",
+    "kr": "문자 (이벤트)"
+  },
+  "RECOMMENDER": {
+    "en": "Recommender",
+    "kr": "소개자"
+  },
+  "REFERENCE_COUNT": {
+    "en": "Reference Count",
+    "kr": "피소개자 수"
+  },
+  "DISCOUNT_MEMO": {
+    "en": "Discount Memo",
+    "kr": "할인 메모"
+  },
+  "CANCEL_MEMO": {
+    "en": "Cancel Memo",
+    "kr": "취소 메모"
+  },
+  "APPOINTMENT_MEMO": {
+    "en": "Appointment Memo",
+    "kr": "예약 메모"
+  },
+  "MEMO": {
+    "en": "Memo",
+    "kr": "메모"
+  },
+  "NORMAL": {
+    "en": "Normal",
+    "kr": "일반"
+  },
+  "LOAD": {
+    "en": "Load",
+    "kr": "불러오기"
+  },
+  "SCHEDULE_DAYS_DELTA": {
+    "en": "Schedule Days Delta",
+    "kr": "문자전송시점"
+  },
+  "IMAGES": {
+    "en": "Images",
+    "kr": "이미지"
+  },
+  "UPLOAD_IMAGES": {
+    "en": "Upload New Images",
+    "kr": "새 이미지 첨부"
+  },
+  "BEFORE": {
+    "en": "Before",
+    "kr": "전"
+  },
+  "AFTER": {
+    "en": "After",
+    "kr": "후"
+  },
+  "EVENT": {
+    "en": "Event",
+    "kr": "이벤트"
+  },
+  "NO_SEARCH_RESULT": {
+    "en": "No search result",
+    "kr": "조회결과가 없습니다"
+  },
+  "SEND_MAP": {
+    "en": "Send Map",
+    "kr": "약도 전송"
+  },
+  "SMS_SCHEDULE_TYPE_SCHEDULED": {
+    "en": "Scheduled",
+    "kr": "예약발송"
+  },
+  "SMS_SCHEDULE_TYPE_IMMEDIATE": {
+    "en": "Immediate",
+    "kr": "즉시발송"
+  },
+  "APPOINTMENT_STATUS_REGISTERED": {
+    "en": "REGISTERED",
+    "kr": "내원"
+  },
+  "APPOINTMENT_STATUS_REGISTRATION_CANCELED": {
+    "en": "Registration Canceled",
+    "kr": "접수취소"
+  },
+  "APPOINTMENT_STATUS_SCHEDULED": {
+    "en": "Scheduled",
+    "kr": "예약"
+  },
+  "APPOINTMENT_STATUS_WAITING": {
+    "en": "Waiting",
+    "kr": "접수"
+  },
+  "APPOINTMENT_STATUS_TREATING": {
+    "en": "Treating",
+    "kr": "진료중"
+  },
+  "APPOINTMENT_STATUS_TREATMENT_DURING": {
+    "en": "Treatment During",
+    "kr": "진료중"
+  },
+  "APPOINTMENT_STATUS_LEAVE": {
+    "en": "Leave",
+    "kr": "퇴원"
+  },
+  "APPOINTMENT_STATUS_COMPLETE": {
+    "en": "Complete",
+    "kr": "완료"
+  },
+  "APPOINTMENT_STATUS_CONSULTING_DONE": {
+    "en": "Consulting Done",
+    "kr": "완료"
+  },
+  "APPOINTMENT_STATUS_TREATMENT_DONE": {
+    "en": "Treatment Done",
+    "kr": "완료"
+  },
+  "APPOINTMENT_STATUS_SURGERY_DONE": {
+    "en": "Surgery Done",
+    "kr": "완료"
+  },
+  "APPOINTMENT_STATUS_CANCELED": {
+    "en": "Canceled",
+    "kr": "예약취소"
+  },
+  "APPOINTMENT_STATUS_CONSULTING": {
+    "en": "Consulting",
+    "kr": "상담중"
+  },
+  "APPOINTMENT_STATUS_CONSULTING_DURING": {
+    "en": "Consulting",
+    "kr": "상담중"
+  },
+  "APPOINTMENT_STATUS_CONSULTED": {
+    "en": "Consulted",
+    "kr": "상담완료"
+  },
+  "APPOINTMENT_STATUS_UNVISITED": {
+    "en": "Unvisited",
+    "kr": "미방문"
+  },
+  "APPOINTMENT_STATUS_NOSHOW": {
+    "en": "No Show",
+    "kr": "미방문"
+  },
+  "APPOINTMENT_STATUS_NO_SHOW": {
+    "en": "No Show",
+    "kr": "미방문"
+  },
+  "APPOINTMENT_STATUS_CONSULTING_WAITING": {
+    "en": "Consulting Watiing",
+    "kr": "상담대기"
+  },
+  "APPOINTMENT_STATUS_TREATMENT_WAITING": {
+    "en": "Treatment Waiting",
+    "kr": "진료대기"
+  },
+  "APPOINTMENT_STATUS_PAYMENT_WAITING": {
+    "en": "Payment Waiting",
+    "kr": "수납대기"
+  },
+  "APPOINTMENT_STATUS_SURGERY_WAITING": {
+    "en": "Surgery Waiting",
+    "kr": "시/수술대기"
+  },
+  "APPOINTMENT_STATUS_SURGERY_DURING": {
+    "en": "Surgery During",
+    "kr": "시/수술중"
+  },
+  "APPOINTMENT_STATUS_ABSENCE": {
+    "en": "Absence",
+    "kr": "휴진"
+  },
+  "APPOINTMENT_STATUS_LUNCH": {
+    "en": "Lunch",
+    "kr": "점심"
+  },
+  "SCHEDULED_AT": {
+    "en": "Scheduled At",
+    "kr": "예약일"
+  },
+  "UPDATE_AT": {
+    "en": "Updated At",
+    "kr": "최종수정일"
+  },
+  "START_AT": {
+    "en": "Start At",
+    "kr": "시작"
+  },
+  "END_AT": {
+    "en": "End At",
+    "kr": "종료"
+  },
+  "APPOINTMENT_SCHEDULED_AT": {
+    "en": "Consulting At",
+    "kr": "예약일"
+  },
+  "CONSULTING_SCHEDULED_AT": {
+    "en": "Consulting At",
+    "kr": "상담일"
+  },
+  "TREATMENT_SCHEDULED_AT": {
+    "en": "Treatment At",
+    "kr": "진료일"
+  },
+  "SURGERIES_SCHEDULED_AT": {
+    "en": "Surgery At",
+    "kr": "시/수술일"
+  },
+  "SURGERY_SCHEDULED_AT": {
+    "en": "Surgery At",
+    "kr": "시/수술일"
+  },
+  "PAYMENT_SCHEDULED_AT": {
+    "en": "Payment At",
+    "kr": "수납생성일"
+  },
+  "PAYMENT_STATUS_PAID": {
+    "en": "paid",
+    "kr": "완납"
+  },
+  "PAYMENT_STATUS_UNPAID": {
+    "en": "unpaid",
+    "kr": "미수"
+  },
+  "PAYMENT_STATUS_PART_REFUND": {
+    "en": "part refund",
+    "kr": "부분 환불"
+  },
+  "PAYMENT_STATUS_FULL_REFUND": {
+    "en": "full refund",
+    "kr": "전체 환불"
+  },
+  "PAYMENT_STATUS_QUEUED": {
+    "en": "payment waiting",
+    "kr": "수납 대기"
+  },
+  "PAYMENT_STATUS_CANCELED": {
+    "en": "payment canceled",
+    "kr": "수납 취소"
+  },
+  "OPERATIONS_SCHEDULED_AT": {
+    "en": "Operations At",
+    "kr": "수술간호일"
+  },
+  "NURSES_SCHEDULED_AT": {
+    "en": "Nurses At",
+    "kr": "간호일"
+  },
+  "SKINS_SCHEDULED_AT": {
+    "en": "Skins At",
+    "kr": "피부관리일"
+  },
+  "PAID_AT": {
+    "en": "Paid At",
+    "kr": "수납/환불일"
+  },
+  "CREDIT_CARD": {
+    "en": "Credit Card",
+    "kr": "신용카드"
+  },
+  "DEBIT_CARD": {
+    "en": "Debit Card",
+    "kr": "체크카드"
+  },
+  "CASH": {
+    "en": "Cash",
+    "kr": "현금"
+  },
+  "CASH_RECEIPT": {
+    "en": "Cash Receipt",
+    "kr": "현금 영수증"
+  },
+  "BANK_TRANSFER": {
+    "en": "Bank Transfer",
+    "kr": "계좌이체"
+  },
+  "FIRST_VISIT": {
+    "en": "First Visit",
+    "kr": "신환"
+  },
+  "RE_VISIT": {
+    "en": "Revisit",
+    "kr": "구환"
+  },
+  "VISITED": {
+    "en": "Visited",
+    "kr": "방문여부"
+  },
+  "SMS_SENT": {
+    "en": "SMS Sent",
+    "kr": "문자전송"
+  },
+  "PRICE": {
+    "en": "Price",
+    "kr": "가격"
+  },
+  "VAT_INCLUDED": {
+    "en": "VAT Included",
+    "kr": "부가세"
+  },
+  "REIMBURSEMENT": {
+    "en": "Reimbursement",
+    "kr": "급여/비급여"
+  },
+  "REIMB_LABEL": {
+    "en": "Reimb.",
+    "kr": "급여"
+  },
+  "REIMB_TRUE": {
+    "en": "Reimb.",
+    "kr": "급여"
+  },
+  "REIMB_FALSE": {
+    "en": "Non Reimb.",
+    "kr": "비급여"
+  },
+  "PERIOD_COUNT": {
+    "en": "Period Count",
+    "kr": "정기관리"
+  },
+  "PAID": {
+    "en": "Paid",
+    "kr": "수납"
+  },
+  "NEW_APPOINTMENT": {
+    "en": "New Appointment",
+    "kr": "새 예약"
+  },
+  "NEW_CONSULTING": {
+    "en": "New Payment",
+    "kr": "새 상담"
+  },
+  "NEW_TREATMENT": {
+    "en": "New Treatment",
+    "kr": "새 진료"
+  },
+  "NEW_SURGERY": {
+    "en": "New Surgery",
+    "kr": "새 시/수술"
+  },
+  "NEW_SMS_NOTIFICATION": {
+    "en": "New SMS Notification",
+    "kr": "새 문자전송 예약"
+  },
+  "NEW_PAYMENT": {
+    "en": "New Payment",
+    "kr": "새 수납"
+  },
+  "ADD_DEPARTMENT": {
+    "en": "Add Department",
+    "kr": "세부 부서 추가"
+  },
+  "ADD_TREATMENT_ITEM": {
+    "en": "Add Treatment Item",
+    "kr": "진료 항목 추가"
+  },
+  "START_HOUR": {
+    "en": "Start Hour",
+    "kr": "진료 시작"
+  },
+  "ESTIMATED_SERVICE_MINUTES": {
+    "en": "Estimated Service Minutes",
+    "kr": "예상 진료 시간"
+  },
+  "UNPAID": {
+    "en": "Unpaid",
+    "kr": "미수납"
+  },
+  "PAYMENT_TREATMENTS": {
+    "en": "Payment Treatments",
+    "kr": "미수납 진료내역"
+  },
+  "BILL": {
+    "en": "Bill",
+    "kr": "청구서"
+  },
+  "EDIT_SMS_AUTO_NOTIFICATION": {
+    "en": "Edit Sms Auto Notification",
+    "kr": "문자 자동전송 입력"
+  },
+  "EDIT_PAYOUT": {
+    "en": "Edit Payout",
+    "kr": "납부 입력"
+  },
+  "EDIT_REFUND": {
+    "en": "Edit Refund",
+    "kr": "환불 입력"
+  },
+  "PAYMENT_METHOD": {
+    "en": "Payment Method",
+    "kr": "결제 수단"
+  },
+  "AMOUNT": {
+    "en": "Amount",
+    "kr": "금액"
+  },
+  "PAYOUTS": {
+    "en": "Payouts",
+    "kr": "납부"
+  },
+  "REFUNDS": {
+    "en": "Refunds",
+    "kr": "환불"
+  },
+  "PAYOUTS_DESC": {
+    "en": "Payouts won't apply until you save it.",
+    "kr": "납부내역 입력 후 '저장' 버튼을 클릭해야만 모든 내용이 반영됩니다."
+  },
+  "REFUNDS_DESC": {
+    "en": "Refunds won't apply until you save it.",
+    "kr": "환불내역 입력 후 '저장' 버튼을 클릭해야만 모든 내용이 반영됩니다."
+  },
+  "CONFIRMATION": {
+    "en": "Confirmation",
+    "kr": "최종확인"
+  },
+  "TOTAL_AMOUNT": {
+    "en": "Total Amt.",
+    "kr": "할인 전 금액"
+  },
+  "NON_REIMBURSEMENT_AMOUNT": {
+    "en": "Non Reimb. Amt.",
+    "kr": "비급여 금액"
+  },
+  "REIMBURSEMENT_AMOUNT": {
+    "en": "Reimb. Amt.",
+    "kr": "급여 금액"
+  },
+  "DISCOUNT_AMOUNT": {
+    "en": "Discount Amt.",
+    "kr": "할인 금액"
+  },
+  "CANCEL_AMOUNT": {
+    "en": "Cancel Amt.",
+    "kr": "취소 금액"
+  },
+  "REQUEST_AMOUNT": {
+    "en": "Request Amt.",
+    "kr": "청구 금액"
+  },
+  "PAYOUT_AMOUNT": {
+    "en": "Payout Amt.",
+    "kr": "납부 금액"
+  },
+  "REFUND_AMOUNT": {
+    "en": "Refund Amt.",
+    "kr": "환불 금액"
+  },
+  "UNPAID_AMOUNT": {
+    "en": "Unpaid Amt.",
+    "kr": "미납 금액"
+  },
+  "PAID_AMOUNT": {
+    "en": "Paid Amt.",
+    "kr": "최종 수납액"
+  },
+  "WORK_TIME": {
+    "en": "Work Time",
+    "kr": "영업 시간"
+  },
+  "APPOINTMENT_TIME_UNIT": {
+    "en": "Appointment Time Unit",
+    "kr": "예약캘린더 시간 단위"
+  },
+  "LUNCH_TIME": {
+    "en": "Lunch Time",
+    "kr": "점심 시간"
+  },
+  "FIRST_PAID_AT": {
+    "en": "First Paid At",
+    "kr": "수납생성일"
+  },
+  "EDIT_PRODUCT": {
+    "en": "Edit Product",
+    "kr": "제품 입력"
+  },
+  "ADD_BOILERPLATE_MESSAGE": {
+    "en": "Edit Boilerplate Message",
+    "kr": "상용구 추가"
+  },
+  "EDIT_BOILERPLATE_MESSAGE": {
+    "en": "Edit Boilerplate Message",
+    "kr": "상용구 수정"
+  },
+  "SELECT_BOILERPLATE_MESSAGE": {
+    "en": "Select Boilerplate Message",
+    "kr": "상용구 선택"
+  },
+  "EDIT_DEPARTMENT_CATEGORY": {
+    "en": "Edit Department Category",
+    "kr": "부서 입력"
+  },
+  "EDIT_TREATMENT_ITEM_CATEGORY": {
+    "en": "Edit Treatment Item Category",
+    "kr": "진료 항목 입력"
+  },
+  "DOMESTIC": {
+    "en": "Domestic",
+    "kr": "내국인"
+  },
+  "FOREIGN": {
+    "en": "Foreign",
+    "kr": "외국인"
+  },
+  "FOREIGNER": {
+    "en": "Foreigner",
+    "kr": "외국인"
+  },
+  "BOILERPLATE_MESSAGE": {
+    "en": "Boilerplate Message",
+    "kr": "상용구"
+  },
+  "BOILERPLATE_MESSAGES": {
+    "en": "Boilerplate Messages",
+    "kr": "상용구"
+  },
+  "CALLER_NUMBER": {
+    "en": "Caller Number",
+    "kr": "발신번호"
+  },
+  "CALLER_NUMBERS": {
+    "en": "Caller Number",
+    "kr": "발신번호"
+  },
+  "SMS_SITUATION": {
+    "en": "SMS Situation",
+    "kr": "전송상황"
+  },
+  "SMS_SCHEDULE_TYPE": {
+    "en": "SMS Notification Type",
+    "kr": "전송타입"
+  },
+  "SMS_SENT_SUCCESS": {
+    "en": "SMS Sent Success",
+    "kr": "문자가 발송되었습니다"
+  },
+  "AUTHCODE_SENT_SUCCESS": {
+    "en": "AuthCode Sent Success",
+    "kr": "인증코드가 전송되었습니다"
+  },
+  "ADD_FAVORITE": {
+    "en": "Add Favorite",
+    "kr": "관심항목 추가"
+  },
+  "FAVORITES": {
+    "en": "Favorites",
+    "kr": "관심항목"
+  },
+  "SET": {
+    "en": "Set",
+    "kr": "설정"
+  },
+  "DELETE_ALIMTALK": {
+    "en": "Delete Alimtalk",
+    "kr": "알림톡 해제"
+  },
+  "IMAGE": {
+    "en": "Image",
+    "kr": "이미지"
+  },
+  "BUSINESS_CHANNEL_ID": {
+    "en": "Business Channel ID",
+    "kr": "비즈니스 채널 아이디"
+  },
+  "HOW_TO_SET": {
+    "en": "How To Set",
+    "kr": "설정방법"
+  },
+  "ALIMTALK": {
+    "en": "Alimtalk",
+    "kr": "알림톡"
+  },
+  "ALIMTALK_GUIDE": {
+    "en": "Alimtalk Template Guide",
+    "kr": "알림톡 템플릿 검수 가이드"
+  },
+  "SEND_AUTH_CODE": {
+    "en": "Send Auth Code",
+    "kr": "인증번호 전송"
+  },
+  "AUTH_CODE": {
+    "en": "Auth Code",
+    "kr": "인증번호"
+  },
+  "CAUTION": {
+    "en": "Caution",
+    "kr": "유의사항"
+  },
+  "ALIMTALK_HELP": {
+    "en": "1. When you Alimtalk, auto-message will be sent as 'Alimtalk' after the verification. (You can't use image for Alimtalk.)\n2. Verification-failed template will be sent as normal SMS.\n3. If sending via Alimtalk fails, it will be sent as normal SMS",
+    "kr": "1. 알림톡 설정시, 자동전송 설정된 문자는 템플릿 검수 후 '알림톡'으로 전송됩니다. (단, 이미지는 알림톡으로 전송이 불가능합니다.)\n2. 검수에 통과하지 못한 템플릿은 일반 문자로 전송됩니다.\n3. 알림톡으로 전송실패 시 일반 문자로 대체되어 문자가 전송됩니다."
+  },
+  "ALIMTALK_STATUS": {
+    "en": "Alimtalk Status",
+    "kr": "알림톡 여부"
+  },
+  "SCHEDULE_TIME": {
+    "en": "Schedule Time",
+    "kr": "문자전송시점"
+  },
+  "SMS_TYPE": {
+    "en": "SMS Type",
+    "kr": "문자타입"
+  },
+  "MESSAGE_TYPE": {
+    "en": "Message Type",
+    "kr": "타입"
+  },
+  "FAIL_REASON": {
+    "en": "Fail Reason",
+    "kr": "전송실패사유"
+  },
+  "CATEGORY": {
+    "en": "Category",
+    "kr": "분류"
+  },
+  "TITLE": {
+    "en": "Title",
+    "kr": "제목"
+  },
+  "CONTENTS": {
+    "en": "Contents",
+    "kr": "내용"
+  },
+  "VISIT_TRUE": {
+    "en": "Visited",
+    "kr": "방문"
+  },
+  "VISIT_FALSE": {
+    "en": "Not Visited",
+    "kr": "미방문"
+  },
+  "INFO_BASIC": {
+    "en": "Basic Info.",
+    "kr": "기본 정보"
+  },
+  "INFO_ADDITIONAL": {
+    "en": "Additional Info.",
+    "kr": "부가 정보"
+  },
+  "APPLIED_N_RESULTS": {
+    "en": "Apply %s results",
+    "kr": "검색된 %s명 적용하기"
+  },
+  "APPLY_SEARCH_RESULTS": {
+    "en": "Apply search results to target list",
+    "kr": "검색된 결과를 대상리스트에 적용"
+  },
+  "ACTIVE": {
+    "en": "Active",
+    "kr": "사용중"
+  },
+  "DEACTIVATED": {
+    "en": "Deactivated",
+    "kr": "해지"
+  },
+  "AGENCY": {
+    "en": "Agency",
+    "kr": "대행사"
+  },
+  "TABLE_DATA_LOADING": {
+    "en": "Loading",
+    "kr": "데이터 로딩 중"
+  },
+  "SELECT_DATA_LOADING": {
+    "en": "Loading",
+    "kr": "항목 로딩 중"
+  },
+  "MANAGER": {
+    "en": "Manager",
+    "kr": "담당자"
+  },
+  "MANAGERS": {
+    "en": "Manager",
+    "kr": "담당자"
+  },
+  "DEPOSIT_SUMMARY": {
+    "en": "Deposit summary",
+    "kr": "보유 예수금"
+  },
+  "VIEW_DETAILS": {
+    "en": "View details",
+    "kr": "내역보기"
+  },
+  "DEPOSIT_DETAILS": {
+    "en": "Deposit details",
+    "kr": "예수금 내역"
+  },
+  "DEPOSIT_CASH": {
+    "en": "Deposit",
+    "kr": "원금"
+  },
+  "DEPOSIT_POINTS": {
+    "en": "Point",
+    "kr": "추가적립금"
+  },
+  "CONFIRM_DEPOSIT_RECHARGE": {
+    "en": "Deposit: %s | Point: %s \nWould you like to charge it?",
+    "kr": "원금 %s | 추가적립금 %s 을\n충전하시겠습니까?"
+  },
+  "DEPOSIT_RECHARGE_CASH": {
+    "en": "Recharge deposit",
+    "kr": "원금"
+  },
+  "DEPOSIT_RECHARGE_POINTS": {
+    "en": "Recharge deposit",
+    "kr": "적립금"
+  },
+  "DEPOSIT_WITHDRAW_CASH": {
+    "en": "Withdraw deposit",
+    "kr": "차감 원금"
+  },
+  "DEPOSIT_WITHDRAW_POINTS": {
+    "en": "Withdraw Point",
+    "kr": "차감 적립금"
+  },
+  "DEPOSIT_WITHDRAW_REASONS": {
+    "en": "Withdraw reasons",
+    "kr": "차감 사유"
+  },
+  "CONFIRM_DEPOSIT_WITHDRAW": {
+    "en": "Deposit: %s | Point: %s \nWould you like to withdraw it?",
+    "kr": "원금: %s | 추가적립금: %s 을\n차감하시겠습니까?"
+  },
+  "DEPOSIT_RECHARGE": {
+    "en": "Recharge",
+    "kr": "충전"
+  },
+  "DEPOSIT_WITHDRAW": {
+    "en": "Withdraw",
+    "kr": "차감"
+  },
+  "DEPOSIT_OPENMODAL_RECHARGE": {
+    "en": "Recharge",
+    "kr": "충전하기"
+  },
+  "DEPOSIT_OPENMODAL_WITHDRAW": {
+    "en": "Withdraw",
+    "kr": "차감하기"
+  },
+  "RECHARGE_FAILED": {
+    "en": "Recharge failed.",
+    "kr": "예수금 충전에 실패하였습니다."
+  },
+  "RECHARGE_COMPLETED": {
+    "en": "Recharge completed.",
+    "kr": "충전하였습니다."
+  },
+  "WITHDRAWAL_FAILED": {
+    "en": "Withdrawal failed.",
+    "kr": "예수금 차감에 실패하였습니다."
+  },
+  "WITHDRAWAL_COMPLETED": {
+    "en": "Withdrawal completed.",
+    "kr": "차감하였습니다."
+  },
+  "WITHDRAW_DEPOSIT": {
+    "en": "Withdraw deposit",
+    "kr": "예수금 차감"
+  },
+  "RECHARGE_DEPOSIT": {
+    "en": "Recharge deposit",
+    "kr": "예수금 충전"
+  },
+  "DEPOSIT": {
+    "en": "Deposit",
+    "kr": "예수금"
+  },
+  "DATE": {
+    "en": "Date",
+    "kr": "일자"
+  },
+  "DEPOSIT_TYPE": {
+    "en": "Type",
+    "kr": "유형"
+  },
+  "DEPOSIT_EMPTY_AMOUNT": {
+    "en": "Please enter the amount.",
+    "kr": "금액을 입력하세요."
+  },
+  "SELECT_REASON": {
+    "en": "Select the reason",
+    "kr": "사유를 선택해주세요"
+  },
+  "DEPOSIT_DETAILS_PAID": {
+    "en": "Paid",
+    "kr": "사용"
+  },
+  "DEPOSIT_DETAILS_DEPOSIT": {
+    "en": "Deposit",
+    "kr": "충전"
+  },
+  "DEPOSIT_DETAILS_REFUND": {
+    "en": "Refund",
+    "kr": "차감(고객 회수)"
+  },
+  "DEPOSIT_DETAILS_DEDUCTION": {
+    "en": "Deduction(Error correction)",
+    "kr": "차감(오기입 수정)"
+  },
+  "DEPOSIT_DETAILS_ETC": {
+    "en": "Deduction(Etc)",
+    "kr": "차감(기타)"
+  },
+  "DEPOSIT_REASON_USE": {
+    "en": "Use",
+    "kr": "사용"
+  },
+  "DEPOSIT_REASON_REFUND": {
+    "en": "Refund",
+    "kr": "고객 회수"
+  },
+  "DEPOSIT_REASON_ADJUST": {
+    "en": "Error correction",
+    "kr": "오기입 수정"
+  },
+  "DEPOSIT_REASON_ETC": {
+    "en": "Etc",
+    "kr": "기타"
+  },
+  "SURGERY": {
+    "en": "Procedure/Surgery",
+    "kr": "시/수술"
+  },
+  "SURGERY_CATEGORY": {
+    "en": "Category",
+    "kr": "항목명"
+  },
+  "SURGERY_CATEGORIES": {
+    "en": "Category",
+    "kr": "시/수술 카테고리"
+  },
+  "SURGERY_ITEM": {
+    "en": "Item",
+    "kr": "세부항목"
+  },
+  "SURGERY_ITEMS": {
+    "en": "Items",
+    "kr": "세부항목"
+  },
+  "SURGERY_ITEM_NAMES": {
+    "en": "Items",
+    "kr": "시/수술명"
+  },
+  "SURGERY_ITEM_PRODUCT_NAMES": {
+    "en": "Items Products",
+    "kr": "시/수술명(제품명)"
+  },
+  "SURGERY_NUMOF": {
+    "en": "Num of Procedure/Surgery",
+    "kr": "시/수술횟수"
+  },
+  "SURGERY_INTERVAL": {
+    "en": "Interval",
+    "kr": "방문간격"
+  },
+  "SURGERY_AFTER_DAY": {
+    "en": "After %s day",
+    "kr": "%s일 후"
+  },
+  "SURGERY_AFTER_DAYS": {
+    "en": "After %s days",
+    "kr": "%s일 후"
+  },
+  "SURGERY_AFTER_MONTH": {
+    "en": "After %s month",
+    "kr": "%s개월 후"
+  },
+  "SURGERY_AFTER_MONTHS": {
+    "en": "After %s months",
+    "kr": "%s개월 후"
+  },
+  "DEPOSIT_EXCEED_DEPOSIT": {
+    "en": "Deducted deposit can't exceed the Customer's deposit",
+    "kr": "고객이 보유한 원금보다 초과입력되었습니다"
+  },
+  "DEPOSIT_EXCEED_POINT": {
+    "en": "Deducted point can't exceed the customer's point",
+    "kr": "고객이 보유한 포인트보다 초과입력되었습니다"
+  },
+  "ADD_SURGERY": {
+    "en": "Add Procedure/Surgery",
+    "kr": "시/수술 추가"
+  },
+  "EDIT_SURGERY": {
+    "en": "Edit Procedure/Surgery",
+    "kr": "시/수술 수정"
+  },
+  "TOGGLE_ACTIVATE": {
+    "en": "Activate",
+    "kr": "사용"
+  },
+  "TOGGLE_DEACTIVATE": {
+    "en": "Deactivate",
+    "kr": "미사용"
+  },
+  "TOGGLE_ACTIVATED": {
+    "en": "Activate",
+    "kr": "활성화 하였습니다."
+  },
+  "TOGGLE_DEACTIVATED": {
+    "en": "Deactivate",
+    "kr": "비활성화 하였습니다."
+  },
+  "COLUMN_VAT": {
+    "en": "VAT",
+    "kr": "부가세"
+  },
+  "VAT_TRUE": {
+    "en": "VAT Included",
+    "kr": "과세"
+  },
+  "VAT_FALSE": {
+    "en": "VAT Excluded",
+    "kr": "비과세"
+  },
+  "NUM_ONCE": {
+    "en": "Once",
+    "kr": "1회"
+  },
+  "NUM_TIMES": {
+    "en": "%s times",
+    "kr": "%s회"
+  },
+  "ADD_ITEM": {
+    "en": "Add item",
+    "kr": "세부항목 추가"
+  },
+  "SURGERY_NAME": {
+    "en": "Item name",
+    "kr": "세부항목명"
+  },
+  "SURGERY_NUMOF_LABEL": {
+    "en": "Num of P/S",
+    "kr": "시/수술 횟수"
+  },
+  "NEXT_VISIT_DAY": {
+    "en": "Next visit",
+    "kr": "다음 방문일"
+  },
+  "REMOVE_ITEM": {
+    "en": "Remove",
+    "kr": "빼기"
+  },
+  "SITUATION_REGISTER": {
+    "en": "Registration Complete",
+    "kr": "고객등록완료"
+  },
+  "SITUATION_FIRST_VISIT": {
+    "en": "First Reservation complete",
+    "kr": "초진예약완료"
+  },
+  "SITUATION_REVISIT": {
+    "en": "Reservation complete",
+    "kr": "재진예약완료"
+  },
+  "SITUATION_CANCEL": {
+    "en": "Reservation Cancellation",
+    "kr": "예약취소"
+  },
+  "SITUATION_RESERVED": {
+    "en": "Reservation complete",
+    "kr": "예약완료"
+  },
+  "SITUATION_BIRTHDAY": {
+    "en": "Birthday",
+    "kr": "생일"
+  },
+  "SITUATION_UNVISITED": {
+    "en": "Unvisited",
+    "kr": "미방문"
+  },
+  "SITUATION_LEAVE": {
+    "en": "Leave",
+    "kr": "퇴원"
+  },
+  "N_DAYS_AGO": {
+    "en": "%s days ago",
+    "kr": "%s일 전"
+  },
+  "N_DAYS_LATER": {
+    "en": "%s days later",
+    "kr": "%s일 후"
+  },
+  "ONE_DAY_AGO": {
+    "en": "1 day ago",
+    "kr": "1일 전"
+  },
+  "ONE_DAY_LATER": {
+    "en": "1 day later",
+    "kr": "1일 후"
+  },
+  "TITLE_AND_CONTENT": {
+    "en": "Title/Contents",
+    "kr": "제목/내용"
+  },
+  "AUTH_TYPE": {
+    "en": "Authentication Type",
+    "kr": "인증방식"
+  },
+  "AUTH_NUMBER": {
+    "en": "Authentication Number",
+    "kr": "인증번호"
+  },
+  "CALLER_NUMBER_REGISTERED": {
+    "en": "Registration completed.",
+    "kr": "발신번호가 등록되었습니다."
+  },
+  "VALIDATION_PHONE_NUMBER": {
+    "en": "Enter a valid number.",
+    "kr": "유효한 전화번호를 입력하세요"
+  },
+  "ARS_GUIDE_HANGUP": {
+    "en": "After entering the authentication number, hang up the ARS phone call and proceed.",
+    "kr": "인증번호 입력 후, ARS 전화를 끊고 진행하세요"
+  },
+  "ARS_GUIDE_CONFIRM": {
+    "en": "Click the confirmation button to complete the registration.",
+    "kr": "확인버튼을 눌러 등록을 완료하세요."
+  },
+  "AUTH_TIME_EXPIRED": {
+    "en": "AuthTime has expired.(00:00)",
+    "kr": "인증시간 만료 (00:00)"
+  },
+  "ADD_CALLER_NUMBER": {
+    "en": "Add Caller Number",
+    "kr": "발신번호 추가"
+  },
+  "CALLER_NUMBER_POLICY_1": {
+    "en": "You can only send text messages to the calling numbers registered in advance.",
+    "kr": "사전에 등록한 발신번호로만 문자메세지 전송이 가능합니다."
+  },
+  "CALLER_NUMBER_POLICY_2": {
+    "en": "발신번호는 전기통신사업법 제84조 2에 의거, 발신번호 사전등록제에 따라 본인인증 과정을 거쳐야합니다.",
+    "kr": "발신번호는 전기통신사업법 제84조 2에 의거, 발신번호 사전등록제에 따라 본인인증 과정을 거쳐야합니다."
+  },
+  "CALLER_NUMBER_POLICY_3": {
+    "en": "There may be a disadvantage when using the calling number of another person.",
+    "kr": "타인명의의 발신번호 사용 시 불이익이 발생할 수 있습니다."
+  },
+  "CALLER_NUMBER_POLICY_4": {
+    "en": "In case of representative numbers or special numbers, \nwhich can’t receive mobile phone authentication numbers / ARS authentication phone calls, \"communication service usage certificate\" must be submitted, which can be issued by the affiliated mobile carrier.",
+    "kr": "휴대폰 인증번호/ARS 인증 전화를 수신할 수 없는 대표번호, 특수 번호인 경우 \n\"통신서비스 이용증명원\"을 제출하여야 하며, 가입 통신사에서 발급받을 수 있습니다."
+  },
+  "ALIMTALK_POLICY_1": {
+    "en": "When you Alimtalk, auto-message will be sent as 'Alimtalk' after the template-verification.",
+    "kr": "알림톡 설정시, 자동전송문자는 \"알림톡\"으로 전송됩니다.(단. 템플릿검수를 통과해야 합니다.)"
+  },
+  "ALIMTALK_POLICY_2": {
+    "en": "Verification-failed template will be sent as normal SMS.\n - Approved Template: sent as \"Alimtalk\" \n - Rejected Template: sent as \"SMS\"",
+    "kr": "검수에 통과하지 못한 문자는 \"일반 문자\"로 전송됩니다.\n- 알림톡 승인: \"알림톡\"으로 전송\n- 알림톡 거부: \"일반 문자\"로 전송 "
+  },
+  "ALIMTALK_STATUS_APPROVED": {
+    "en": "Approved",
+    "kr": "승인"
+  },
+  "ALIMTALK_STATUS_REVIEW": {
+    "en": "Review",
+    "kr": "심사중"
+  },
+  "ALIMTALK_STATUS_REJECTED": {
+    "en": "Rejected",
+    "kr": "반려"
+  },
+  "ALIMTALK_STATUS_NONE": {
+    "en": "None",
+    "kr": "미연동"
+  },
+  "CONFIRM_ALIMTALK_DEACTIVATE": {
+    "en": "Are you sure you want to deactivate it?\nAll Alimtalk will be stopped.",
+    "kr": "정말로 설정을 해제하시겠습니까?\n해제 시, 모든 알림톡 전송이 중단됩니다."
+  },
+  "ALIMTALK_DEACTIVATED": {
+    "en": "Deactivated.",
+    "kr": "알림톡 설정을 해제하였습니다"
+  },
+  "AUTH_TYPE_ARS": {
+    "en": "ARS Authentication",
+    "kr": "ARS 인증"
+  },
+  "LABEL_CALLER_NUMBER": {
+    "en": "Phone Number",
+    "kr": "전화번호"
+  },
+  "LABEL_AUTH_NUMBER": {
+    "en": "Auth Number",
+    "kr": "인증번호"
+  },
+  "ARS_REQUEST": {
+    "en": "ARS Request",
+    "kr": "ARS 인증요청"
+  },
+  "ARS_REQUESTING": {
+    "en": "Requesting ARS",
+    "kr": "ARS 요청중"
+  },
+  "ARS_REQUEST_ANOTHER": {
+    "en": "Another Number",
+    "kr": "다른번호로 요청"
+  },
+  "ARS_AUTH_CANCEL": {
+    "en": "Auth Cancel",
+    "kr": "인증 취소"
+  },
+  "ARS_REQUEST_COMPLETE": {
+    "en": "ARS Authentication Completed",
+    "kr": "ARS 인증완료"
+  },
+  "AUTH_REMAINING_TIME": {
+    "en": "Remaining Time",
+    "kr": "남은시간"
+  },
+  "PLACEHOLDER_CALLER_NUMBER": {
+    "en": "Select a caller number",
+    "kr": "발신번호를 선택하세요"
+  },
+  "PLACEHOLDER_SMS_SITUATION": {
+    "en": "Select a situation.",
+    "kr": "전송상황을 선택하세요."
+  },
+  "PLACEHOLDER_MEMO": {
+    "en": "Please enter a memo.",
+    "kr": "메모를 입력하세요"
+  },
+  "LABEL_SMS_SITUATION": {
+    "en": "Situation",
+    "kr": "전송상황"
+  },
+  "LABEL_SCHEDULE_TYPE": {
+    "en": "Schedule Type",
+    "kr": "전송시간"
+  },
+  "LABEL_SCHEDULE_TYPE_IMMEDIATE": {
+    "en": "Immediate",
+    "kr": "즉시"
+  },
+  "LABEL_SCHEDULE_TYPE_SCHEDULED": {
+    "en": "Scheduled",
+    "kr": "예약"
+  },
+  "PLACEHOLDER_SMS_TITLE": {
+    "en": "Text message title is displayed only in case of the LMS and SMS.",
+    "kr": "문자제목은 LMS/MMS일 때만 표시됩니다."
+  },
+  "PLACEHOLDER_SMS_CONTENTS": {
+    "en": "When it exceeds 90 bytes, it is sent in the LMS.",
+    "kr": "문자내용을 입력하세요.\n90bytes 초과시 장문(LMS)으로 전송됩니다."
+  },
+  "CLINIC_HOMEPAGE_LINK": {
+    "en": "Homepage Link",
+    "kr": "홈페이지 링크"
+  },
+  "CLINIC_BABITALK_LINK": {
+    "en": "Babitalk Link",
+    "kr": "바비톡 링크"
+  },
+  "LABEL_SCREEN_TAB_ITEM_SURGERY_CATEGORIES": {
+    "en": "Surgery Categoreis",
+    "kr": "시/수술 카테고리"
+  },
+  "LABEL_SCREEN_TAB_ITEM_CHARACTERS": {
+    "en": "Special Chars",
+    "kr": "특수문자"
+  },
+  "LABEL_SCREEN_TAB_ITEM_VARIABLES": {
+    "en": "Variables",
+    "kr": "변수추가"
+  },
+  "LABEL_SCREEN_TAB_ITEM_LINKS": {
+    "en": "Links",
+    "kr": "바비톡링크"
+  },
+  "LABEL_SCREEN_TAB_ITEM_BOILERPLATE": {
+    "en": "Boilerplate",
+    "kr": "상용구"
+  },
+  "LABEL_SCREEN_TAB_ITEM_IMAGE": {
+    "en": "Image",
+    "kr": "이미지"
+  },
+  "LABEL_BOILERPLATE_CATEGORY": {
+    "en": "Name",
+    "kr": "분류"
+  },
+  "PLACEHOLDER_BOILERPLATE_CATEGORY": {
+    "en": "ex)Reservation Complete template ",
+    "kr": "예시) 예약완료 상용문구"
+  },
+  "LABEL_ALIMTALK_CHANNELID": {
+    "en": "Business Channel ID",
+    "kr": "비즈니스 채널 아이디"
+  },
+  "LABEL_ALIMTALK_CATEGORY": {
+    "en": "Category",
+    "kr": "카테고리 분류"
+  },
+  "LABEL_ALIMTALK_PHONENUMBER": {
+    "en": "Admin Phone Number",
+    "kr": "관리자 휴대폰번호"
+  },
+  "LABEL_ALIMTALK_AUTHCODE": {
+    "en": "Send AuthCode",
+    "kr": "인증번호"
+  },
+  "REQUEST_AUTHCODE": {
+    "en": "Send AuthCode",
+    "kr": "인증번호 요청"
+  },
+  "REQUEST_AGAIN_AUTHCODE": {
+    "en": "Resend AuthCode",
+    "kr": "재요청"
+  },
+  "LABEL_ALIMTALK_GUIDE": {
+    "en": "Alimtalk Guide",
+    "kr": "카카오톡 알림톡 설정"
+  },
+  "PLACEHOLDER_ALIMTALK_CHANNEL_ID": {
+    "en": "@ChannelID (ex. @unobeauty)",
+    "kr": "@채널아이디 (예. @우노뷰티)"
+  },
+  "PLACEHOLDER_ALIMTALK_CATEGORY": {
+    "en": "Category",
+    "kr": "카테고리를 선택하세요"
+  },
+  "ALIMTALK_ACTIVATE_SUCCESS": {
+    "en": "Activation successful.",
+    "kr": "설정하였습니다."
+  },
+  "ALIMTALK_ACTIVATE": {
+    "en": "Activate",
+    "kr": "설정하기"
+  },
+  "ALIMTALK_DEACTIVATE": {
+    "en": "Deactivate",
+    "kr": "설정 해제"
+  },
+  "YEAR_UNIT": {
+    "en": "",
+    "kr": "년"
+  },
+  "INCLUDE": {
+    "en": "Include",
+    "kr": "포함"
+  },
+  "EXCLUDE": {
+    "en": "Exclude",
+    "kr": "제외"
+  },
+  "SEARCH_CONDITION": {
+    "en": "Search condition",
+    "kr": "검색조건"
+  },
+  "ADD_CONDITION": {
+    "en": "Add condition",
+    "kr": "검색조건 추가"
+  },
+  "REMOVE_CONDITION_GROUP": {
+    "en": "Remove Condition group",
+    "kr": "검색그룹 제거"
+  },
+  "PLACEHOLDER_SELECT_CONDITION_TYPE": {
+    "en": "Select a type",
+    "kr": "검색항목 선택"
+  },
+  "PLACEHOLDER_SELECT_CONDITION": {
+    "en": "Select a condition",
+    "kr": "검색조건을 선택하세요"
+  },
+  "INPUT_SEARCH_CONDITION": {
+    "en": "Input a search condition",
+    "kr": "검색항목을 입력하세요"
+  },
+  "ENTER_SEARCH_VALUE": {
+    "en": "Please add the value written in the Enter key.",
+    "kr": "검색항목을 입력 후 Enter키로 추가하세요"
+  },
+  "SELECT_A_SEARCH_VALUE": {
+    "en": "Select search value",
+    "kr": "검색항목을 선택하세요"
+  },
+  "EMPTY_A_SEARCH_VALUE": {
+    "en": "Empty Search value.",
+    "kr": "선택가능한 검색항목이 없습니다."
+  },
+  "LABEL_SMSTYPE": {
+    "en": "SMS Type",
+    "kr": "문자분류"
+  },
+  "LABEL_SMSTYPE_NORMAL": {
+    "en": "Normal",
+    "kr": "일반"
+  },
+  "LABEL_SMSTYPE_EVENT": {
+    "en": "Event",
+    "kr": "광고"
+  },
+  "ONE_PERSON": {
+    "en": "1 Person",
+    "kr": "1명"
+  },
+  "N_PERSONS": {
+    "en": "%s Persons",
+    "kr": "%s명"
+  },
+  "LABEL_CONDITION_CUSTOMER": {
+    "en": "Cond. Customer",
+    "kr": "고객 조건"
+  },
+  "LABEL_CONDITION_CUSTOMER_LASTVISITAT": {
+    "en": "Last Visit Date",
+    "kr": "최종방문일"
+  },
+  "LABEL_CONDITION_CUSTOMER_NAME": {
+    "en": "Customer Name",
+    "kr": "고객명"
+  },
+  "LABEL_CONDITION_CUSTOMER_BIRTHDAY": {
+    "en": "Birthday",
+    "kr": "생일"
+  },
+  "LABEL_CONDITION_CUSTOMER_SEX": {
+    "en": "Gender",
+    "kr": "성별"
+  },
+  "LABEL_CONDITION_CUSTOMER_PHONENUMBER": {
+    "en": "Phone Number",
+    "kr": "휴대폰번호"
+  },
+  "LABEL_CONDITION_CUSTOMER_COUNSELOR": {
+    "en": "Counselor",
+    "kr": "담당 상담자"
+  },
+  "LABEL_CONDITION_CUSTOMER_DOCTOR": {
+    "en": "Doctor",
+    "kr": "담당 의사"
+  },
+  "LABEL_CONDITION_CUSTOMER_RECOMMENDER": {
+    "en": "Recommender",
+    "kr": "소개자"
+  },
+  "LABEL_CONDITION_CUSTOMER_LEVELIDS": {
+    "en": "Level",
+    "kr": "고객등급"
+  },
+  "LABEL_CONDITION_CUSTOMER_ACQUISITIONCHANNEL": {
+    "en": "Acquisition",
+    "kr": "내원경로"
+  },
+  "LABEL_CONDITION_CUSTOMER_REGION": {
+    "en": "Country/Region",
+    "kr": "국가/지역"
+  },
+  "LABEL_CONDITION_CUSTOMER_FAVORITEIDS": {
+    "en": "Favorite Treatment Category",
+    "kr": "관심항목"
+  },
+  "LABEL_CONDITION_CUSTOMER_ISNEWCUSTOMER": {
+    "en": "First/Re Visit",
+    "kr": "신환/구환"
+  },
+  "LABEL_CONDITION_APPOINTMENT_FIRSTVISIT": {
+    "en": "First/Re Visit",
+    "kr": "초진/재진"
+  },
+  "LABEL_CONDITION_APPOINTMENT_ISNEWCUSTOMER": {
+    "en": "First/Re Visit",
+    "kr": "신환/구환"
+  },
+  "LABEL_CONDITION_APPOINTMENT_SCHEDULEDAT": {
+    "en": "Scheduled date",
+    "kr": "예약일자"
+  },
+  "LABEL_CONDITION_APPOINTMENT": {
+    "en": "Cond. Appointment",
+    "kr": "예약조건"
+  },
+  "LABEL_CONDITION_APPOINTMENT_CATEGORYIDS": {
+    "en": "Appointment Category",
+    "kr": "예약항목"
+  },
+  "LABEL_CONDITION_APPOINTMENT_ITEMIDS": {
+    "en": "Appointment Category",
+    "kr": "예약항목"
+  },
+  "LABEL_CONDITION_APPOINTMENT_VISITED": {
+    "en": "Visited",
+    "kr": "방문여부"
+  },
+  "LABEL_CONDITION_CONSULTING": {
+    "en": "Cond.Consulting",
+    "kr": "상담조건"
+  },
+  "LABEL_CONDITION_CONSULTING_COUNSELOR": {
+    "en": "Counselor",
+    "kr": "상담자"
+  },
+  "LABEL_CONDITION_CONSULTING_CATEGORYIDS": {
+    "en": "Consulting Category",
+    "kr": "상담항목"
+  },
+  "LABEL_CONDITION_CONSULTING_ITEMIDS": {
+    "en": "Consulting Category",
+    "kr": "상담항목"
+  },
+  "LABEL_CONDITION_CONSULTING_RESULTIDS": {
+    "en": "Consulting Result",
+    "kr": "상담결과"
+  },
+  "LABEL_CONDITION_TREATMENT": {
+    "en": "Cond. Treatment",
+    "kr": "진료조건"
+  },
+  "LABEL_CONDITION_TREATMENT_DOCTOR": {
+    "en": "Doctor",
+    "kr": "의사"
+  },
+  "LABEL_CONDITION_TREATMENT_CATEGORYIDS": {
+    "en": "Treatment Category",
+    "kr": "진료항목"
+  },
+  "LABEL_CONDITION_TREATMENT_ITEMIDS": {
+    "en": "Treatment Category",
+    "kr": "진료항목"
+  },
+  "LABEL_CONDITION_PAYMENT": {
+    "en": "Cond. Payment",
+    "kr": "수납조건"
+  },
+  "LABEL_CONDITION_PAYMENT_CATEGORYIDS": {
+    "en": "Payment Category",
+    "kr": "수납항목"
+  },
+  "LABEL_CONDITION_PAYMENT_ITEMIDS": {
+    "en": "Payment Category",
+    "kr": "수납항목"
+  },
+  "LABEL_CONDITION_PAYMENT_STATUS": {
+    "en": "Payment status",
+    "kr": "수납여부"
+  },
+  "SEARCH_RESULTS": {
+    "en": "Results",
+    "kr": "결과"
+  },
+  "RECENT_SEARCH_CONDITIONS": {
+    "en": "Recent Search Conditions",
+    "kr": "최근 검색조건"
+  },
+  "ADD_SEARCH_CONDITION_GROUP": {
+    "en": "Add Group",
+    "kr": "검색그룹 추가"
+  },
+  "DIRECT_INPUT_NUMBER": {
+    "en": "Direct Input Number",
+    "kr": "번호 직접입력"
+  },
+  "PLACEHOLDER_DIRECT_PHONE_NUMBER": {
+    "en": "Enter your mobile phone number. Use ','(comma) as delimiters. \nex)01012345678,01098765432",
+    "kr": "휴대폰번호를 입력하세요. ','(콤마)단위로 복수입력이 가능합니다.\nex)01012345678,01098765432"
+  },
+  "MESSAGE_RESULT_STATUS": {
+    "en": "Status",
+    "kr": "상태"
+  },
+  "MESSAGE_RESULT_STATUS_SENDING": {
+    "en": "Success",
+    "kr": "전송성공"
+  },
+  "MESSAGE_RESULT_STATUS_SUCCESS": {
+    "en": "Success",
+    "kr": "전송성공"
+  },
+  "MESSAGE_RESULT_STATUS_WAITING": {
+    "en": "Waiting",
+    "kr": "전송대기중"
+  },
+  "MESSAGE_RESULT_STATUS_FAIL": {
+    "en": "Fail",
+    "kr": "전송실패"
+  },
+  "MESSAGE_RESULT_STATUS_CANCELED": {
+    "en": "Canceled",
+    "kr": "전송취소"
+  },
+  "MESSAGE_POINT_AMOUNT": {
+    "en": "Points",
+    "kr": "잔여충전금"
+  },
+  "MESSAGE_POINT_RECHARGE": {
+    "en": "Recharge",
+    "kr": "충전"
+  },
+  "MESSAGE_POINT_PRICE": {
+    "en": "Pricing",
+    "kr": "전송단가표"
+  },
+  "MESSAGE_SEND": {
+    "en": "Send Message",
+    "kr": "문자 전송"
+  },
+  "RECENT_SEARCH_HISTORY": {
+    "en": "Recent search history",
+    "kr": "최근 검색조건"
+  },
+  "NUMBER_OF_REQUESTS": {
+    "en": "Number of Requests",
+    "kr": "요청건수"
+  },
+  "NUMBER_OF_SUCCESSES": {
+    "en": "Number of Successes",
+    "kr": "성공횟수"
+  },
+  "NUMBER_OF_FAILURES": {
+    "en": "Number of failures",
+    "kr": "실패횟수"
+  },
+  "MESSAGE_PAID_AMOUNT": {
+    "en": "Paid amount",
+    "kr": "소진액"
+  },
+  "MESSAGE_EXPECTED_AMOUNT": {
+    "en": "Excepected Amount",
+    "kr": "예상소진금액"
+  },
+  "NUMBER_OF_CLICKED_BABITALK": {
+    "en": "Number of Clicked",
+    "kr": "바비톡 링크클릭"
+  },
+  "NUMBER_OF_CONVERSIONS": {
+    "en": "Number of Conversions",
+    "kr": "바비톡 이벤트 신청"
+  },
+  "TITLE_VIEW_DETAILS": {
+    "en": "View details",
+    "kr": "상세보기"
+  },
+  "BUTTON_VIEW_DETAILS": {
+    "en": "View",
+    "kr": "보기"
+  },
+  "MESSAGE_SCHEDULED_AT": {
+    "en": "ScheduledAt",
+    "kr": "전송일"
+  },
+  "SEARCH_TARGET_RESULTS": {
+    "en": "Search Result",
+    "kr": "대상리스트"
+  },
+  "SELECTED_TARGETS": {
+    "en": "Selected Targets",
+    "kr": "선택인원"
+  },
+  "TAB_MARKETING_MESSAGE_RESULTS": {
+    "en": "Marketing Message Sending Results",
+    "kr": "광고문자 전송결과"
+  },
+  "TAB_MARKETING_MESSAGE_SCHEDULED": {
+    "en": "Scheduled Marketing Messages",
+    "kr": "전송예약중인 광고문자"
+  },
+  "THIS_MONTH": {
+    "en": "This month",
+    "kr": "이번달"
+  },
+  "LAST_1_WEEK": {
+    "en": "Last 1 week",
+    "kr": "최근 1주일"
+  },
+  "TITLE_CREATED_AT": {
+    "en": "Created at",
+    "kr": "입력일"
+  },
+  "ADD_MEMO": {
+    "en": "Add memo",
+    "kr": "메모추가"
+  },
+  "VALID_DIRECT_NUMBERS": {
+    "en": "Valid Direct Numbers",
+    "kr": "직접입력번호 확인"
+  },
+  "N_COUNTS": {
+    "en": "%s Counts",
+    "kr": "%s건"
+  },
+  "FREE_SERVICE": {
+    "en": "Free Service",
+    "kr": "무료 서비스"
+  },
+  "PRICE_VAT_INCLUDE": {
+    "en": "Price Vat Include",
+    "kr": "VAT 포함가격"
+  },
+  "NOT_VAT_INCLUDE": {
+    "en": "Not Vat Include",
+    "kr": "VAT 미포함가격"
+  },
+  "QUANTITY": {
+    "en": "Quantity",
+    "kr": "개수"
+  },
+  "REFUND_COUNT": {
+    "en": "Refund Count",
+    "kr": "환불할 회차"
+  },
+  "REFUND_QUANTITY": {
+    "en": "Refund Quantity",
+    "kr": "환불할 개수"
+  }
+}

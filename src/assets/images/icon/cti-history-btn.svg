@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#273142">
+            <g>
+                <g>
+                    <path fill-rule="nonzero" d="M12.766 24.895s2.105 1.836 4.453 2.172c0 0 1.647.367 2.776-.979 0 0 .778-.566.061-1.468l-1.77-1.744s-.426-.49-1.112-.06l-1.053 1.04s-2.898-1.5-4.057-4.115l.809-.811s.808-.719.015-1.53l-1.77-1.743s-.625-.444-1.25.107c0 0-1.525 1.285-1.037 3.441 0 0 .046 2.264 3.935 5.69z" transform="translate(-140 -232) translate(139 232) translate(1)"/>
+                    <path d="M19.549 11.723H26.974V12.723H19.549z" transform="translate(-140 -232) translate(139 232) translate(1)"/>
+                    <path d="M19.549 14.152H26.974V15.152H19.549z" transform="translate(-140 -232) translate(139 232) translate(1)"/>
+                    <path d="M19.549 16.582H26.974V17.582H19.549z" transform="translate(-140 -232) translate(139 232) translate(1)"/>
+                    <path fill-rule="nonzero" d="M17.929 14.557c0-.223-.182-.405-.405-.405-.224 0-.405.182-.405.405 0 .224.181.405.405.405.223 0 .405-.18.405-.405z" transform="translate(-140 -232) translate(139 232) translate(1)"/>
+                    <path fill-rule="nonzero" d="M17.929 12.123c0-.221-.182-.4-.405-.4-.224 0-.405.179-.405.4-.003.108.04.212.115.29.076.076.18.12.29.12.109 0 .213-.044.29-.12.075-.078.117-.182.115-.29z" transform="translate(-140 -232) translate(139 232) translate(1)"/>
+                    <path fill-rule="nonzero" d="M17.524 16.582c-.108 0-.211.043-.287.12-.076.076-.119.179-.118.286 0 .224.181.404.405.404.223 0 .405-.18.405-.404 0-.225-.182-.405-.405-.405z" transform="translate(-140 -232) translate(139 232) translate(1)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,206 @@
+import { Meta } from '@storybook/addon-docs';
+import { styled } from '@storybook/theming';
+import { Button } from '~/components/Button';
+import { UnderlineButton } from '~/components/UnderlineButton';
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  > div {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+`;
+
+<Meta title="4. Button" />
+
+# Button Guideline
+
+우노뷰티 CRM 에서 유저의 특정 액션을 유도하는 Button 컴포넌트 입니다.  
+**Radius 는 2px, 또는 4px**을 사용합니다.  
+텍스트 좌우 **margin은 최소 2px에서 Button 크기와 사용 맥락에 맞춰 4의 배수(4, 8, 12, 16, 24 ...)**로 유연하게 사용합니다.
+
+### Fill Button
+
+<Wrapper>
+  <div>
+    <Button color="primary" size="l">
+      버튼명
+    </Button>
+    <Button color="primary" size="m">
+      버튼명
+    </Button>
+    <Button color="primary" size="s">
+      버튼명
+    </Button>
+    <Button color="primary" size="xs">
+      버튼명
+    </Button>
+  </div>
+  <div>
+    <Button color="secondary" size="l">
+      버튼명
+    </Button>
+    <Button color="secondary" size="m">
+      버튼명
+    </Button>
+    <Button color="secondary" size="s">
+      버튼명
+    </Button>
+    <Button color="secondary" size="xs">
+      버튼명
+    </Button>
+  </div>
+  <div>
+    <Button color="alert" size="l">
+      버튼명
+    </Button>
+    <Button color="alert" size="m">
+      버튼명
+    </Button>
+    <Button color="alert" size="s">
+      버튼명
+    </Button>
+    <Button color="alert" size="xs">
+      버튼명
+    </Button>
+  </div>
+  <div>
+    <Button size="l" disabled>
+      버튼명
+    </Button>
+    <Button size="m" disabled>
+      버튼명
+    </Button>
+    <Button size="s" disabled>
+      버튼명
+    </Button>
+    <Button size="xs" disabled>
+      버튼명
+    </Button>
+  </div>
+</Wrapper>
+
+### Outline Button
+
+<Wrapper>
+  <div>
+    <Button color="primary" styled="outline" size="l">
+      버튼명
+    </Button>
+    <Button color="primary" styled="outline" size="m">
+      버튼명
+    </Button>
+    <Button color="primary" styled="outline" size="s">
+      버튼명
+    </Button>
+    <Button color="primary" styled="outline" size="xs">
+      버튼명
+    </Button>
+  </div>
+  <div>
+    <Button color="secondary" styled="outline" size="l">
+      버튼명
+    </Button>
+    <Button color="secondary" styled="outline" size="m">
+      버튼명
+    </Button>
+    <Button color="secondary" styled="outline" size="s">
+      버튼명
+    </Button>
+    <Button color="secondary" styled="outline" size="xs">
+      버튼명
+    </Button>
+  </div>
+  <div>
+    <Button color="alert" styled="outline" size="l">
+      버튼명
+    </Button>
+    <Button color="alert" styled="outline" size="m">
+      버튼명
+    </Button>
+    <Button color="alert" styled="outline" size="s">
+      버튼명
+    </Button>
+    <Button color="alert" styled="outline" size="xs">
+      버튼명
+    </Button>
+  </div>
+  <div>
+    <Button color="mix" styled="outline" size="l">
+      버튼명
+    </Button>
+    <Button color="mix" styled="outline" size="m">
+      버튼명
+    </Button>
+    <Button color="mix" styled="outline" size="s">
+      버튼명
+    </Button>
+    <Button color="mix" styled="outline" size="xs">
+      버튼명
+    </Button>
+  </div>
+  <div>
+    <Button styled="outline" size="l" disabled>
+      버튼명
+    </Button>
+    <Button styled="outline" size="m" disabled>
+      버튼명
+    </Button>
+    <Button styled="outline" size="s" disabled>
+      버튼명
+    </Button>
+    <Button styled="outline" size="xs" disabled>
+      버튼명
+    </Button>
+  </div>
+</Wrapper>
+
+### Text Button
+
+<Wrapper>
+  <div>
+    <UnderlineButton color="primary" styled="outline" size="l">
+      버튼명
+    </UnderlineButton>
+    <UnderlineButton color="primary" size="m">
+      버튼명
+    </UnderlineButton>
+    <UnderlineButton color="primary" size="s">
+      버튼명
+    </UnderlineButton>
+    <UnderlineButton color="primary" size="xs">
+      버튼명
+    </UnderlineButton>
+  </div>
+  <div>
+    <UnderlineButton color="secondary" size="l">
+      버튼명
+    </UnderlineButton>
+    <UnderlineButton color="secondary" size="m">
+      버튼명
+    </UnderlineButton>
+    <UnderlineButton color="secondary" size="s">
+      버튼명
+    </UnderlineButton>
+    <UnderlineButton color="secondary" size="xs">
+      버튼명
+    </UnderlineButton>
+  </div>
+  <div>
+    <UnderlineButton color="alert" size="l">
+      버튼명
+    </UnderlineButton>
+    <UnderlineButton color="alert" size="m">
+      버튼명
+    </UnderlineButton>
+    <UnderlineButton color="alert" size="s">
+      버튼명
+    </UnderlineButton>
+    <UnderlineButton color="alert" styled="outline" size="xs">
+      버튼명
+    </UnderlineButton>
+  </div>
+</Wrapper>

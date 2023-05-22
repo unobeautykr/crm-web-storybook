@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.quill-text {
+  white-space: normal !important;
+  font-weight: normal;
+}
+
+.quill-text p {
+  font-weight: normal !important;
+}
+
+.quill-text strong {
+  font-weight: bold !important;
+}
+
+.quill-plain-text {
+  white-space: break-spaces;
+  font-weight: normal;
+}
+
+.quill-min-height .ql-editor {
+  height: 80px;
+}
+
+.ql-snow.ql-toolbar button.ql-boilerplate {
+  width: auto;
+  border: 1px solid #273142;
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.ql-snow.ql-toolbar button.ql-boilerplate:hover {
+  color: initial;
+}
+
+.ql-snow.ql-toolbar button.ql-boilerplate::before {
+  content: '상용구';
+}
+
+.ql-editor.ql-blank:focus::before {
+  content: '';
+}
+
+.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+  z-index: 2 !important;
+}
