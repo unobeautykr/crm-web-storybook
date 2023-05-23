@@ -6,7 +6,7 @@ import { ThemeProvider as StyledComponentThemeProvider } from 'styled-components
 import { theme } from '~/themes/theme';
 import { ApiProvider } from '~/components/providers/ApiProvider';
 import { SnackbarProvider } from '~/components/providers/SnackbarProvider';
-import { DataTableProvider } from '~/components/providers/DatatableProvider';
+import { DataTableProvider } from '~/components/providers/DataTableProvider';
 import { ImperativeModalProvider } from '~/components/providers/ImperativeModalProvider';
 
 const parameters = {
