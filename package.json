@@ -1,12 +1,14 @@
 {
   "name": "storybook-t2",
   "version": "1.0.0",
-  "description": "",
+  "description": "crm-storybook repository",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "start": "storybook dev -p 6006",
+    "build": "storybook build"
   },
   "keywords": [],
   "author": "",
